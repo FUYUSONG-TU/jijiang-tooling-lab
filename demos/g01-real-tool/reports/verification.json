@@ -1,0 +1,1424 @@
+{
+  "passed": true,
+  "firstLoad": {
+    "loadMs": 3944.800000000745,
+    "bytes": 528988,
+    "samples": 162571,
+    "sampleBufferBytes": 2351599
+  },
+  "variants": [
+    {
+      "variant": "r02",
+      "tip": [
+        -3.9441795349121094,
+        -79.0612564086914,
+        5.992677688598633
+      ],
+      "tipError": 0,
+      "loadMs": 290.20000000018626,
+      "triangles": 8416
+    },
+    {
+      "variant": "r04",
+      "tip": [
+        -3.800455093383789,
+        -78.61891174316406,
+        5.992677688598633
+      ],
+      "tipError": 0,
+      "loadMs": 133.70000000018626,
+      "triangles": 8416
+    },
+    {
+      "variant": "r08",
+      "tip": [
+        -3.5130066871643066,
+        -77.73423767089844,
+        5.992677688598633
+      ],
+      "tipError": 0,
+      "loadMs": 192.59999999962747,
+      "triangles": 8422
+    }
+  ],
+  "shallowSweeps": [
+    {
+      "variant": "r02",
+      "kind": "real",
+      "params": {
+        "stock": 16,
+        "target": 15.5,
+        "length": 24,
+        "feed": 90
+      },
+      "states": 81,
+      "failed": [],
+      "contactMax": 247,
+      "sampleCount": 166121,
+      "expected": "no-unexpected-interference"
+    },
+    {
+      "variant": "r02",
+      "kind": "real",
+      "params": {
+        "stock": 6,
+        "target": 5.5,
+        "length": 8,
+        "feed": 180
+      },
+      "states": 81,
+      "failed": [
+        {
+          "i": 34,
+          "z": 1.71875,
+          "cut": 0,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 218
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 35,
+          "z": 0.20312500000000333,
+          "cut": 0,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 218
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 36,
+          "z": -1.3125000000000036,
+          "cut": 1.3125000000000036,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 220,
+            "guide": 218
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 37,
+          "z": -2.828125,
+          "cut": 2.828125,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 220,
+            "guide": 218
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 38,
+          "z": -4.3437499999999964,
+          "cut": 4.3437499999999964,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 220,
+            "guide": 218
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 39,
+          "z": -5.8593750000000036,
+          "cut": 5.8593750000000036,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 220,
+            "guide": 218
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 40,
+          "z": -7.375000000000002,
+          "cut": 7.375000000000002,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 220,
+            "guide": 218
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 41,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 201,
+            "guide": 214
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 42,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 26,
+            "guide": 200
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 43,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 44
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 44,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 34
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 45,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 28
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 46,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 20
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        }
+      ],
+      "contactMax": 220,
+      "sampleCount": 166121,
+      "expected": "small-stock-guide-interference"
+    },
+    {
+      "variant": "r02",
+      "kind": "real",
+      "params": {
+        "stock": 20,
+        "target": 19.5,
+        "length": 45,
+        "feed": 30
+      },
+      "states": 81,
+      "failed": [],
+      "contactMax": 254,
+      "sampleCount": 166121,
+      "expected": "no-unexpected-interference"
+    },
+    {
+      "variant": "r04",
+      "kind": "real",
+      "params": {
+        "stock": 16,
+        "target": 15.5,
+        "length": 24,
+        "feed": 90
+      },
+      "states": 81,
+      "failed": [],
+      "contactMax": 190,
+      "sampleCount": 162571,
+      "expected": "no-unexpected-interference"
+    },
+    {
+      "variant": "r04",
+      "kind": "real",
+      "params": {
+        "stock": 6,
+        "target": 5.5,
+        "length": 8,
+        "feed": 180
+      },
+      "states": 81,
+      "failed": [
+        {
+          "i": 33,
+          "z": 2,
+          "cut": 0,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 20
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 34,
+          "z": 1.71875,
+          "cut": 0,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 286
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 35,
+          "z": 0.20312500000000333,
+          "cut": 0,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 83,
+            "guide": 286
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 36,
+          "z": -1.3125000000000036,
+          "cut": 1.3125000000000036,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 169,
+            "guide": 286
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 37,
+          "z": -2.828125,
+          "cut": 2.828125,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 169,
+            "guide": 286
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 38,
+          "z": -4.3437499999999964,
+          "cut": 4.3437499999999964,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 169,
+            "guide": 286
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 39,
+          "z": -5.8593750000000036,
+          "cut": 5.8593750000000036,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 169,
+            "guide": 286
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 40,
+          "z": -7.375000000000002,
+          "cut": 7.375000000000002,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 169,
+            "guide": 286
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 41,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 122,
+            "guide": 277
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 42,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 17,
+            "guide": 265
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 43,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 252
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 44,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 217
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 45,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 202
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 46,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 194
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 47,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 37
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 48,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 28
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 49,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 20
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 50,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 8
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        }
+      ],
+      "contactMax": 169,
+      "sampleCount": 162571,
+      "expected": "small-stock-guide-interference"
+    },
+    {
+      "variant": "r04",
+      "kind": "real",
+      "params": {
+        "stock": 20,
+        "target": 19.5,
+        "length": 45,
+        "feed": 30
+      },
+      "states": 81,
+      "failed": [],
+      "contactMax": 196,
+      "sampleCount": 162571,
+      "expected": "no-unexpected-interference"
+    },
+    {
+      "variant": "r08",
+      "kind": "real",
+      "params": {
+        "stock": 16,
+        "target": 15.5,
+        "length": 24,
+        "feed": 90
+      },
+      "states": 81,
+      "failed": [],
+      "contactMax": 123,
+      "sampleCount": 157188,
+      "expected": "no-unexpected-interference"
+    },
+    {
+      "variant": "r08",
+      "kind": "real",
+      "params": {
+        "stock": 6,
+        "target": 5.5,
+        "length": 8,
+        "feed": 180
+      },
+      "states": 81,
+      "failed": [
+        {
+          "i": 33,
+          "z": 2,
+          "cut": 0,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 262
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 34,
+          "z": 1.71875,
+          "cut": 0,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 555
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 35,
+          "z": 0.20312500000000333,
+          "cut": 0,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 74,
+            "guide": 555
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 36,
+          "z": -1.3125000000000036,
+          "cut": 1.3125000000000036,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 109,
+            "guide": 555
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 37,
+          "z": -2.828125,
+          "cut": 2.828125,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 109,
+            "guide": 555
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 38,
+          "z": -4.3437499999999964,
+          "cut": 4.3437499999999964,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 109,
+            "guide": 555
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 39,
+          "z": -5.8593750000000036,
+          "cut": 5.8593750000000036,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 109,
+            "guide": 555
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 40,
+          "z": -7.375000000000002,
+          "cut": 7.375000000000002,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 109,
+            "guide": 555
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 41,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 77,
+            "guide": 548
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 42,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 12,
+            "guide": 533
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 43,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 527
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 44,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 479
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 45,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 462
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 46,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 444
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 47,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 289
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 48,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 276
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 49,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 263
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 50,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 229
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 51,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 215
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 52,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 201
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 53,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 169
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 54,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 36
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 55,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 28
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 56,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 20
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        },
+        {
+          "i": 57,
+          "z": -8,
+          "cut": 8,
+          "hits": {
+            "holder": 0,
+            "seat": 0,
+            "fastener": 0,
+            "fixture": 0,
+            "insertUnexpected": 0,
+            "insertContactBand": 0,
+            "guide": 5
+          },
+          "errors": [
+            "刀具/刀座与导套环域干涉"
+          ]
+        }
+      ],
+      "contactMax": 109,
+      "sampleCount": 157188,
+      "expected": "small-stock-guide-interference"
+    },
+    {
+      "variant": "r08",
+      "kind": "real",
+      "params": {
+        "stock": 20,
+        "target": 19.5,
+        "length": 45,
+        "feed": 30
+      },
+      "states": 81,
+      "failed": [],
+      "contactMax": 128,
+      "sampleCount": 157188,
+      "expected": "no-unexpected-interference"
+    }
+  ],
+  "shallowStates": 486,
+  "smallStockStates": 243,
+  "deep": [
+    {
+      "variant": "r02",
+      "failedStates": 27,
+      "first": {
+        "i": 29,
+        "z": 0.18750000000000178,
+        "cut": 0,
+        "hits": {
+          "holder": 99,
+          "seat": 49,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 190,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      "maxHolder": 109,
+      "maxSeat": 441
+    },
+    {
+      "variant": "r04",
+      "failedStates": 27,
+      "first": {
+        "i": 29,
+        "z": 0.18750000000000178,
+        "cut": 0,
+        "hits": {
+          "holder": 69,
+          "seat": 271,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 451,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      "maxHolder": 77,
+      "maxSeat": 426
+    },
+    {
+      "variant": "r08",
+      "failedStates": 29,
+      "first": {
+        "i": 28,
+        "z": 1.25,
+        "cut": 0,
+        "hits": {
+          "holder": 3,
+          "seat": 0,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 0,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络"
+        ]
+      },
+      "maxHolder": 83,
+      "maxSeat": 411
+    }
+  ],
+  "autoStop": {
+    "state": {
+      "x": 12,
+      "z": 1.1495999999999817,
+      "radial": 6,
+      "toolA": 6,
+      "front": 4.850400000000018,
+      "headA": -105.14959999999998,
+      "cut": 0,
+      "index": 3,
+      "time": 2.4875333333333347,
+      "total": 7.083333333333333,
+      "mode": "physical",
+      "kind": "real",
+      "variant": "r08",
+      "playing": false,
+      "spin": 0.8600400000000008,
+      "worldOffset": 0,
+      "barSpin": 0.8600400000000008,
+      "rotorSpin": 0.8600400000000008
+    },
+    "safety": {
+      "hits": {
+        "holder": 26,
+        "seat": 0,
+        "fastener": 0,
+        "fixture": 0,
+        "insertUnexpected": 0,
+        "insertContactBand": 0,
+        "guide": 0
+      },
+      "errors": [
+        "刀杆/刀头进入材料包络"
+      ],
+      "firstError": [
+        4.841617107391357,
+        7.556179404258728,
+        -2.53267765045166
+      ],
+      "contactBandWidth": 1.8028366088611536,
+      "sampleCount": 157188,
+      "queryCount": 55759,
+      "tipError": 0,
+      "mappingError": 0,
+      "headGuideGap": 77.14959999999998,
+      "clampedRawMaterial": true
+    }
+  },
+  "guideInjectionHits": 36207,
+  "coordinateViews": {
+    "a": {
+      "x": 15.5,
+      "z": -16.537500000000005,
+      "radial": 7.75,
+      "toolA": 6,
+      "front": 22.537500000000005,
+      "headA": -87.46249999999999,
+      "cut": 16.537500000000005,
+      "index": 3,
+      "time": 3.8156250000000003,
+      "total": 6.9375,
+      "mode": "physical",
+      "kind": "real",
+      "variant": "r04",
+      "playing": false,
+      "spin": 0,
+      "worldOffset": 0,
+      "barSpin": 0,
+      "rotorSpin": 0,
+      "tipError": 0
+    },
+    "r": {
+      "x": 15.5,
+      "z": -16.537500000000005,
+      "radial": 7.75,
+      "toolA": 6,
+      "front": 22.537500000000005,
+      "headA": -87.46249999999999,
+      "cut": 16.537500000000005,
+      "index": 3,
+      "time": 3.8156250000000003,
+      "total": 6.9375,
+      "mode": "relative",
+      "kind": "real",
+      "variant": "r04",
+      "playing": false,
+      "spin": 0,
+      "worldOffset": -18.537500000000005,
+      "barSpin": 0,
+      "rotorSpin": 0,
+      "tipError": 0
+    }
+  },
+  "playback": {
+    "before": {
+      "x": 15.5,
+      "z": -8.212500000000002,
+      "radial": 7.75,
+      "toolA": 6,
+      "front": 14.212500000000002,
+      "headA": -95.7875,
+      "cut": 8.212500000000002,
+      "index": 3,
+      "time": 3.121875,
+      "total": 6.9375,
+      "mode": "physical",
+      "kind": "real",
+      "variant": "r04",
+      "playing": false,
+      "spin": 0,
+      "worldOffset": 0,
+      "barSpin": 0,
+      "rotorSpin": 0
+    },
+    "after": {
+      "x": 15.5,
+      "z": -21.61290000000001,
+      "radial": 7.75,
+      "toolA": 6,
+      "front": 27.61290000000001,
+      "headA": -82.38709999999999,
+      "cut": 21.61290000000001,
+      "index": 3,
+      "time": 4.238575000000001,
+      "total": 6.9375,
+      "mode": "physical",
+      "kind": "real",
+      "variant": "r04",
+      "playing": false,
+      "spin": 1.340040000000001,
+      "worldOffset": 0,
+      "barSpin": 1.340040000000001,
+      "rotorSpin": 1.340040000000001
+    }
+  },
+  "variantSwitch": {
+    "disposed": true,
+    "oldParent": true,
+    "t": 3.8156250000000003,
+    "z": -16.537500000000005,
+    "after": {
+      "x": 15.5,
+      "z": -16.537500000000005,
+      "radial": 7.75,
+      "toolA": 6,
+      "front": 22.537500000000005,
+      "headA": -87.46249999999999,
+      "cut": 16.537500000000005,
+      "index": 3,
+      "time": 3.8156250000000003,
+      "total": 6.9375,
+      "mode": "physical",
+      "kind": "real",
+      "variant": "r08",
+      "playing": false,
+      "spin": 0,
+      "worldOffset": 0,
+      "barSpin": 0,
+      "rotorSpin": 0
+    },
+    "tipError": 0
+  },
+  "geometry": {
+    "state": {
+      "x": 15.5,
+      "z": -17.370000000000005,
+      "radial": 7.75,
+      "toolA": 6,
+      "front": 23.370000000000005,
+      "headA": -86.63,
+      "cut": 17.370000000000005,
+      "index": 3,
+      "time": 3.8850000000000002,
+      "total": 6.9375,
+      "mode": "physical",
+      "kind": "real",
+      "variant": "r04",
+      "playing": false,
+      "spin": 1.1000400000000008,
+      "worldOffset": 0,
+      "barSpin": 1.1000400000000008,
+      "rotorSpin": 1.1000400000000008
+    },
+    "geometry": {
+      "stock": [
+        {
+          "radius": 8,
+          "length": 122.63,
+          "center": -78.685
+        },
+        {
+          "radius": 7.75,
+          "length": 17.370000000000005,
+          "center": -8.685000000000002
+        }
+      ],
+      "front": 23.370000000000005,
+      "tool": [
+        6,
+        7.75,
+        0
+      ]
+    },
+    "code": "G01 Z-24.000 F90"
+  },
+  "cloudMobileFps": 16.617429837518507,
+  "mobileTouchChanged": true,
+  "mobilePinchChanged": true,
+  "mobileNoOverflow": true,
+  "physicalPhoneTested": false,
+  "wechatTested": false,
+  "errors": [],
+  "httpErrors": []
+}

@@ -1,0 +1,420 @@
+{
+  "errors": [],
+  "results": [
+    {
+      "variant": "r02",
+      "kind": "real",
+      "params": {
+        "stock": 16,
+        "target": 15.5,
+        "length": 24,
+        "feed": 90
+      },
+      "states": 61,
+      "failed": [],
+      "contactMax": 247,
+      "sampleCount": 166121
+    },
+    {
+      "variant": "r04",
+      "kind": "real",
+      "params": {
+        "stock": 16,
+        "target": 15.5,
+        "length": 24,
+        "feed": 90
+      },
+      "states": 61,
+      "failed": [],
+      "contactMax": 190,
+      "sampleCount": 162571
+    },
+    {
+      "variant": "r08",
+      "kind": "real",
+      "params": {
+        "stock": 16,
+        "target": 15.5,
+        "length": 24,
+        "feed": 90
+      },
+      "states": 61,
+      "failed": [],
+      "contactMax": 123,
+      "sampleCount": 157188
+    }
+  ],
+  "deep": {
+    "variant": "r04",
+    "kind": "real",
+    "params": {
+      "stock": 16,
+      "target": 12,
+      "length": 24,
+      "feed": 90
+    },
+    "states": 61,
+    "failed": [
+      {
+        "i": 22,
+        "z": -0.1666666666666643,
+        "cut": 0.1666666666666643,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 23,
+        "z": -1.5833333333333344,
+        "cut": 1.5833333333333344,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 24,
+        "z": -3.0000000000000036,
+        "cut": 3.0000000000000036,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 25,
+        "z": -4.4166666666666625,
+        "cut": 4.4166666666666625,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 26,
+        "z": -5.833333333333333,
+        "cut": 5.833333333333333,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 27,
+        "z": -7.250000000000002,
+        "cut": 7.250000000000002,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 28,
+        "z": -8.666666666666666,
+        "cut": 8.666666666666666,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 29,
+        "z": -10.083333333333336,
+        "cut": 10.083333333333336,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 30,
+        "z": -11.500000000000002,
+        "cut": 11.500000000000002,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 31,
+        "z": -12.916666666666666,
+        "cut": 12.916666666666666,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 32,
+        "z": -14.333333333333336,
+        "cut": 14.333333333333336,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 33,
+        "z": -15.750000000000004,
+        "cut": 15.750000000000004,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 34,
+        "z": -17.166666666666664,
+        "cut": 17.166666666666664,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 35,
+        "z": -18.58333333333334,
+        "cut": 18.58333333333334,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 36,
+        "z": -20.000000000000004,
+        "cut": 20.000000000000004,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 37,
+        "z": -21.416666666666668,
+        "cut": 21.416666666666668,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 38,
+        "z": -22.833333333333332,
+        "cut": 22.833333333333332,
+        "hits": {
+          "holder": 77,
+          "seat": 426,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 640,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 39,
+        "z": -24,
+        "cut": 24,
+        "hits": {
+          "holder": 68,
+          "seat": 399,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 624,
+          "guide": 0
+        },
+        "errors": [
+          "刀杆/刀头进入材料包络",
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 40,
+        "z": -24,
+        "cut": 24,
+        "hits": {
+          "holder": 0,
+          "seat": 360,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 544,
+          "guide": 0
+        },
+        "errors": [
+          "垫座进入材料包络"
+        ]
+      },
+      {
+        "i": 41,
+        "z": -24,
+        "cut": 24,
+        "hits": {
+          "holder": 0,
+          "seat": 295,
+          "fastener": 0,
+          "fixture": 0,
+          "insertUnexpected": 0,
+          "insertContactBand": 501,
+          "guide": 0
+        },
+        "errors": [
+          "垫座进入材料包络"
+        ]
+      }
+    ],
+    "contactMax": 640,
+    "sampleCount": 162571
+  }
+}

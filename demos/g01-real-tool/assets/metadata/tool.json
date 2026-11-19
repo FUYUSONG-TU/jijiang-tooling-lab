@@ -1,0 +1,868 @@
+{
+  "schemaVersion": "2.0",
+  "modelVersion": "2.0.0",
+  "toolId": "JJ-OD35-SAMPLE-001",
+  "toolName": "35°菱形外圆车刀 · 可移植教学样板",
+  "toolCategory": "external-turning",
+  "professionalToolCount": 1,
+  "insertShape": "35°菱形 / V形，ISO型号待确认",
+  "insertIncludedAngle": 35,
+  "approachAngle": null,
+  "hand": null,
+  "geometryUnits": {
+    "metadata": "mm",
+    "glb": "m / glTF2 Y-up",
+    "loaderOutput": "mm / Z-up",
+    "glbToModelScale": 1000,
+    "conversionMatrixColumnMajor": [
+      1000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1000,
+      0,
+      0,
+      -1000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "localCoordinateSystem": {
+    "handedness": "right",
+    "origin": "刀杆后端截面中心（演示安装基准）",
+    "x": "+X 沿刀杆宽度",
+    "y": "+Y 从刀头指向刀杆后端；后端Y=0",
+    "z": "+Z 从刀杆底面指向刀片顶面",
+    "cuttingDirectionDescription": "刀片前端位于负Y；非机床进给方向",
+    "originalToStandardOffsetMm": [
+      -0.0,
+      -65.0,
+      5.0
+    ],
+    "insertNoseUnitVector": [
+      -0.3090169943749474,
+      -0.9510565162951535,
+      0
+    ],
+    "insertTopNormal": [
+      0,
+      0,
+      1
+    ]
+  },
+  "mountingReferencePoint": [
+    0,
+    0,
+    0
+  ],
+  "mountingTransformMatrixColumnMajor": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "defaultVariant": "r04",
+  "holderDimensions": {
+    "width": 10.000000953674316,
+    "height": 10.000000953674316,
+    "length": 77.65960693359375,
+    "rearShankDatumLength": 65
+  },
+  "cuttingTipPosition": [
+    -3.800455093383789,
+    -78.61891174316406,
+    5.992677688598633
+  ],
+  "noseArcCenter": [
+    -3.67911434173584,
+    -78.24546813964844,
+    6.0
+  ],
+  "boundingBox": {
+    "min": [
+      -5.000000476837158,
+      -78.64546203613281,
+      -5.000000953674316
+    ],
+    "max": [
+      5.000000476837158,
+      7.62939453125e-06,
+      6.140000343322754
+    ],
+    "size": [
+      10.000000953674316,
+      78.64546966552734,
+      11.14000129699707
+    ]
+  },
+  "noseRadiusVariants": {
+    "r02": {
+      "noseRadius": 0.2,
+      "modelPath": "models/diamond-35-r02.glb",
+      "cuttingTipPosition": [
+        -3.9441795349121094,
+        -79.0612564086914,
+        5.992677688598633
+      ],
+      "noseArcCenter": [
+        -3.8846421241760254,
+        -78.87801361083984,
+        6.0
+      ],
+      "nominalNoseArcApex": [
+        -3.9464454650878906,
+        -79.06822967529297,
+        6.0
+      ],
+      "virtualSharpTipPosition": [
+        -4.090169906616211,
+        -79.51056671142578,
+        6.0
+      ],
+      "boundingBox": {
+        "min": [
+          -5.000000476837158,
+          -79.07801818847656,
+          -5.000000953674316
+        ],
+        "max": [
+          5.000000476837158,
+          7.62939453125e-06,
+          6.140000343322754
+        ],
+        "size": [
+          10.000000953674316,
+          79.0780258178711,
+          11.14000129699707
+        ]
+      },
+      "holderDimensions": {
+        "width": 10.000000953674316,
+        "height": 10.000000953674316,
+        "length": 78.10201263427734,
+        "rearShankDatumLength": 65
+      },
+      "insertThickness": 2.5999999046325684,
+      "insertInstallation": {
+        "centerXY": [
+          -1.0,
+          -70.0
+        ],
+        "bottomZ": 3.4,
+        "topZ": 6.0,
+        "planRotationDegrees": -18,
+        "matrixColumnMajor": [
+          0.9510565162951535,
+          -0.3090169943749474,
+          0,
+          0,
+          0.3090169943749474,
+          0.9510565162951535,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.0,
+          -70.0,
+          5.0,
+          1
+        ]
+      },
+      "components": {
+        "Holder_Main": {
+          "role": "holder",
+          "boundingBox": {
+            "min": [
+              -5.000000476837158,
+              -78.10200500488281,
+              -5.000000953674316
+            ],
+            "max": [
+              5.000000476837158,
+              7.62939453125e-06,
+              5.0
+            ],
+            "size": [
+              10.000000953674316,
+              78.10201263427734,
+              10.000000953674316
+            ]
+          },
+          "vertexCountBeforeExport": 510
+        },
+        "Insert_Seat": {
+          "role": "seat",
+          "boundingBox": {
+            "min": [
+              -3.9615817070007324,
+              -78.7408447265625,
+              2.799999713897705
+            ],
+            "max": [
+              1.9615814685821533,
+              -61.259151458740234,
+              3.4000000953674316
+            ],
+            "size": [
+              5.923163175582886,
+              17.481693267822266,
+              0.6000003814697266
+            ]
+          },
+          "vertexCountBeforeExport": 1176
+        },
+        "Carbide_Insert_35deg": {
+          "role": "insert",
+          "boundingBox": {
+            "min": [
+              -4.084634780883789,
+              -79.07801818847656,
+              3.4000000953674316
+            ],
+            "max": [
+              2.084634780883789,
+              -60.9219856262207,
+              6.0
+            ],
+            "size": [
+              6.169269561767578,
+              18.15603256225586,
+              2.5999999046325684
+            ]
+          },
+          "vertexCountBeforeExport": 1278
+        },
+        "Screw_Shaft": {
+          "role": "fastener",
+          "boundingBox": {
+            "min": [
+              -2.0,
+              -71.0,
+              0.19999980926513672
+            ],
+            "max": [
+              0.0,
+              -69.0,
+              4.699999809265137
+            ],
+            "size": [
+              2.0,
+              2.0,
+              4.5
+            ]
+          },
+          "vertexCountBeforeExport": 768
+        },
+        "Screw_Head": {
+          "role": "fastener",
+          "boundingBox": {
+            "min": [
+              -2.5199999809265137,
+              -71.52000427246094,
+              4.699999809265137
+            ],
+            "max": [
+              0.5199999809265137,
+              -68.4800033569336,
+              6.140000343322754
+            ],
+            "size": [
+              3.0399999618530273,
+              3.0400009155273438,
+              1.4400005340576172
+            ]
+          },
+          "vertexCountBeforeExport": 482
+        }
+      },
+      "sourceTipVertexErrorMm": 0.0,
+      "bytes": 529020,
+      "sha256": "0582dcff1680aa4f82ef609d31e0c7b7c68ced0d86843eea00f6c0882ae621f3",
+      "sourceQA": {
+        "meshes": {
+          "Holder_Main": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Insert_Seat": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Carbide_Insert_35deg": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Screw_Shaft": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Screw_Head": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          }
+        },
+        "surfaceIntersectionCounts": {
+          "Holder_Main/Carbide_Insert_35deg": 0,
+          "Holder_Main/Screw_Head": 0,
+          "Holder_Main/Screw_Shaft": 0,
+          "Insert_Seat/Screw_Head": 0,
+          "Insert_Seat/Screw_Shaft": 0,
+          "Carbide_Insert_35deg/Screw_Head": 0,
+          "Carbide_Insert_35deg/Screw_Shaft": 0
+        },
+        "contactPlanes": {
+          "holderSeatFloorZ": 2.8,
+          "seatBottomZ": 2.8,
+          "seatTopZ": 3.4,
+          "insertBottomZ": 3.4
+        },
+        "limitations": [
+          "BVH 检查针对网格表面，不是认证CAD实体求交",
+          "刀座、背面与紧固孔内部为明确未核验的演示重建",
+          "座体与刀片及刀杆底面共面贴合为装配接触",
+          "螺纹、牌号、涂层、精确后角未核验；不模拟螺纹啮合",
+          "鼻圆在模型中以有限圆弧细分并含微小刃口倒角，基准按顶面圆弧设计点"
+        ]
+      }
+    },
+    "r04": {
+      "noseRadius": 0.4,
+      "modelPath": "models/diamond-35-r04.glb",
+      "cuttingTipPosition": [
+        -3.800455093383789,
+        -78.61891174316406,
+        5.992677688598633
+      ],
+      "noseArcCenter": [
+        -3.67911434173584,
+        -78.24546813964844,
+        6.0
+      ],
+      "nominalNoseArcApex": [
+        -3.8027210235595703,
+        -78.62588500976562,
+        6.0
+      ],
+      "virtualSharpTipPosition": [
+        -4.090169906616211,
+        -79.51056671142578,
+        6.0
+      ],
+      "boundingBox": {
+        "min": [
+          -5.000000476837158,
+          -78.64546203613281,
+          -5.000000953674316
+        ],
+        "max": [
+          5.000000476837158,
+          7.62939453125e-06,
+          6.140000343322754
+        ],
+        "size": [
+          10.000000953674316,
+          78.64546966552734,
+          11.14000129699707
+        ]
+      },
+      "holderDimensions": {
+        "width": 10.000000953674316,
+        "height": 10.000000953674316,
+        "length": 77.65960693359375,
+        "rearShankDatumLength": 65
+      },
+      "insertThickness": 2.5999999046325684,
+      "insertInstallation": {
+        "centerXY": [
+          -1.0,
+          -70.0
+        ],
+        "bottomZ": 3.4,
+        "topZ": 6.0,
+        "planRotationDegrees": -18,
+        "matrixColumnMajor": [
+          0.9510565162951535,
+          -0.3090169943749474,
+          0,
+          0,
+          0.3090169943749474,
+          0.9510565162951535,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.0,
+          -70.0,
+          5.0,
+          1
+        ]
+      },
+      "components": {
+        "Holder_Main": {
+          "role": "holder",
+          "boundingBox": {
+            "min": [
+              -5.000000476837158,
+              -77.65959930419922,
+              -5.000000953674316
+            ],
+            "max": [
+              5.000000476837158,
+              7.62939453125e-06,
+              5.0
+            ],
+            "size": [
+              10.000000953674316,
+              77.65960693359375,
+              10.000000953674316
+            ]
+          },
+          "vertexCountBeforeExport": 510
+        },
+        "Insert_Seat": {
+          "role": "seat",
+          "boundingBox": {
+            "min": [
+              -3.956599712371826,
+              -78.35155487060547,
+              2.799999713897705
+            ],
+            "max": [
+              1.956599473953247,
+              -61.64844512939453,
+              3.4000000953674316
+            ],
+            "size": [
+              5.913199186325073,
+              16.703109741210938,
+              0.6000003814697266
+            ]
+          },
+          "vertexCountBeforeExport": 1176
+        },
+        "Carbide_Insert_35deg": {
+          "role": "insert",
+          "boundingBox": {
+            "min": [
+              -4.079099178314209,
+              -78.64546203613281,
+              3.4000000953674316
+            ],
+            "max": [
+              2.079099178314209,
+              -61.35453414916992,
+              6.0
+            ],
+            "size": [
+              6.158198356628418,
+              17.29092788696289,
+              2.5999999046325684
+            ]
+          },
+          "vertexCountBeforeExport": 1278
+        },
+        "Screw_Shaft": {
+          "role": "fastener",
+          "boundingBox": {
+            "min": [
+              -2.0,
+              -71.0,
+              0.19999980926513672
+            ],
+            "max": [
+              0.0,
+              -69.0,
+              4.699999809265137
+            ],
+            "size": [
+              2.0,
+              2.0,
+              4.5
+            ]
+          },
+          "vertexCountBeforeExport": 768
+        },
+        "Screw_Head": {
+          "role": "fastener",
+          "boundingBox": {
+            "min": [
+              -2.5199999809265137,
+              -71.52000427246094,
+              4.699999809265137
+            ],
+            "max": [
+              0.5199999809265137,
+              -68.4800033569336,
+              6.140000343322754
+            ],
+            "size": [
+              3.0399999618530273,
+              3.0400009155273438,
+              1.4400005340576172
+            ]
+          },
+          "vertexCountBeforeExport": 482
+        }
+      },
+      "sourceTipVertexErrorMm": 2.384185791015625e-07,
+      "bytes": 528988,
+      "sha256": "06e109908888c9c50e683e21e5f518f251b36ed32fe8e1fab8d96b77204021dd",
+      "sourceQA": {
+        "meshes": {
+          "Holder_Main": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Insert_Seat": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Carbide_Insert_35deg": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Screw_Shaft": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Screw_Head": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          }
+        },
+        "surfaceIntersectionCounts": {
+          "Holder_Main/Carbide_Insert_35deg": 0,
+          "Holder_Main/Screw_Head": 0,
+          "Holder_Main/Screw_Shaft": 0,
+          "Insert_Seat/Screw_Head": 0,
+          "Insert_Seat/Screw_Shaft": 0,
+          "Carbide_Insert_35deg/Screw_Head": 0,
+          "Carbide_Insert_35deg/Screw_Shaft": 0
+        },
+        "contactPlanes": {
+          "holderSeatFloorZ": 2.8,
+          "seatBottomZ": 2.8,
+          "seatTopZ": 3.4,
+          "insertBottomZ": 3.4
+        },
+        "limitations": [
+          "BVH 检查针对网格表面，不是认证CAD实体求交",
+          "刀座、背面与紧固孔内部为明确未核验的演示重建",
+          "座体与刀片及刀杆底面共面贴合为装配接触",
+          "螺纹、牌号、涂层、精确后角未核验；不模拟螺纹啮合",
+          "鼻圆在模型中以有限圆弧细分并含微小刃口倒角，基准按顶面圆弧设计点"
+        ]
+      }
+    },
+    "r08": {
+      "noseRadius": 0.8,
+      "modelPath": "models/diamond-35-r08.glb",
+      "cuttingTipPosition": [
+        -3.5130066871643066,
+        -77.73423767089844,
+        5.992677688598633
+      ],
+      "noseArcCenter": [
+        -3.2680587768554688,
+        -76.9803695678711,
+        6.0
+      ],
+      "nominalNoseArcApex": [
+        -3.515272378921509,
+        -77.7412109375,
+        6.0
+      ],
+      "virtualSharpTipPosition": [
+        -4.090169906616211,
+        -79.51056671142578,
+        6.0
+      ],
+      "boundingBox": {
+        "min": [
+          -5.000000476837158,
+          -77.78036499023438,
+          -5.000000953674316
+        ],
+        "max": [
+          5.000000476837158,
+          7.62939453125e-06,
+          6.140000343322754
+        ],
+        "size": [
+          10.000000953674316,
+          77.7803726196289,
+          11.14000129699707
+        ]
+      },
+      "holderDimensions": {
+        "width": 10.000000953674316,
+        "height": 10.000000953674316,
+        "length": 76.77641296386719,
+        "rearShankDatumLength": 65
+      },
+      "insertThickness": 2.5999999046325684,
+      "insertInstallation": {
+        "centerXY": [
+          -1.0,
+          -70.0
+        ],
+        "bottomZ": 3.4,
+        "topZ": 6.0,
+        "planRotationDegrees": -18,
+        "matrixColumnMajor": [
+          0.9510565162951535,
+          -0.3090169943749474,
+          0,
+          0,
+          0.3090169943749474,
+          0.9510565162951535,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1.0,
+          -70.0,
+          5.0,
+          1
+        ]
+      },
+      "components": {
+        "Holder_Main": {
+          "role": "holder",
+          "boundingBox": {
+            "min": [
+              -5.000000476837158,
+              -76.77640533447266,
+              -5.000000953674316
+            ],
+            "max": [
+              5.000000476837158,
+              7.62939453125e-06,
+              5.0
+            ],
+            "size": [
+              10.000000953674316,
+              76.77641296386719,
+              10.000000953674316
+            ]
+          },
+          "vertexCountBeforeExport": 512
+        },
+        "Insert_Seat": {
+          "role": "seat",
+          "boundingBox": {
+            "min": [
+              -3.9466359615325928,
+              -77.57296752929688,
+              2.799999713897705
+            ],
+            "max": [
+              1.9466358423233032,
+              -62.42703628540039,
+              3.4000000953674316
+            ],
+            "size": [
+              5.893271803855896,
+              15.145931243896484,
+              0.6000003814697266
+            ]
+          },
+          "vertexCountBeforeExport": 1176
+        },
+        "Carbide_Insert_35deg": {
+          "role": "insert",
+          "boundingBox": {
+            "min": [
+              -4.068028450012207,
+              -77.78036499023438,
+              3.4000000953674316
+            ],
+            "max": [
+              2.068028450012207,
+              -62.219635009765625,
+              6.0
+            ],
+            "size": [
+              6.136056900024414,
+              15.56072998046875,
+              2.5999999046325684
+            ]
+          },
+          "vertexCountBeforeExport": 1279
+        },
+        "Screw_Shaft": {
+          "role": "fastener",
+          "boundingBox": {
+            "min": [
+              -2.0,
+              -71.0,
+              0.19999980926513672
+            ],
+            "max": [
+              0.0,
+              -69.0,
+              4.699999809265137
+            ],
+            "size": [
+              2.0,
+              2.0,
+              4.5
+            ]
+          },
+          "vertexCountBeforeExport": 768
+        },
+        "Screw_Head": {
+          "role": "fastener",
+          "boundingBox": {
+            "min": [
+              -2.5199999809265137,
+              -71.52000427246094,
+              4.699999809265137
+            ],
+            "max": [
+              0.5199999809265137,
+              -68.4800033569336,
+              6.140000343322754
+            ],
+            "size": [
+              3.0399999618530273,
+              3.0400009155273438,
+              1.4400005340576172
+            ]
+          },
+          "vertexCountBeforeExport": 482
+        }
+      },
+      "sourceTipVertexErrorMm": 2.384185791015625e-07,
+      "bytes": 529216,
+      "sha256": "1b9a0293cb7bf3d80b87b107f20e5551460b3c4d218e416cfd66fafbacb4fe13",
+      "sourceQA": {
+        "meshes": {
+          "Holder_Main": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Insert_Seat": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Carbide_Insert_35deg": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Screw_Shaft": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          },
+          "Screw_Head": {
+            "nonManifoldEdges": 0,
+            "positiveVolume": true,
+            "finiteNormals": true
+          }
+        },
+        "surfaceIntersectionCounts": {
+          "Holder_Main/Carbide_Insert_35deg": 0,
+          "Holder_Main/Screw_Head": 0,
+          "Holder_Main/Screw_Shaft": 0,
+          "Insert_Seat/Screw_Head": 0,
+          "Insert_Seat/Screw_Shaft": 0,
+          "Carbide_Insert_35deg/Screw_Head": 0,
+          "Carbide_Insert_35deg/Screw_Shaft": 0
+        },
+        "contactPlanes": {
+          "holderSeatFloorZ": 2.8,
+          "seatBottomZ": 2.8,
+          "seatTopZ": 3.4,
+          "insertBottomZ": 3.4
+        },
+        "limitations": [
+          "BVH 检查针对网格表面，不是认证CAD实体求交",
+          "刀座、背面与紧固孔内部为明确未核验的演示重建",
+          "座体与刀片及刀杆底面共面贴合为装配接触",
+          "螺纹、牌号、涂层、精确后角未核验；不模拟螺纹啮合",
+          "鼻圆在模型中以有限圆弧细分并含微小刃口倒角，基准按顶面圆弧设计点"
+        ]
+      }
+    }
+  },
+  "modelPaths": {
+    "r02": "models/diamond-35-r02.glb",
+    "r04": "models/diamond-35-r04.glb",
+    "r08": "models/diamond-35-r08.glb"
+  },
+  "referenceImages": [
+    {
+      "source": "用户提供第5张拼图，第二排第四格",
+      "originalFile": "5-照片-5.jpg",
+      "sha256": "632c5f6090cb3e4c05014154f59ae773dbff1630fc6e251f6eba21c80a3224b2",
+      "redistributionStatus": "原图再分发授权未确认，仅记录来源，资源包不包含图片",
+      "distributed": false
+    }
+  ],
+  "verificationStatus": {
+    "geometry": "程序构造及导出一致性检查；非制造商认证",
+    "dimensions": "全部线性尺寸为教学近似默认值，非图片测量值，非厂家核验",
+    "includedAngle": "任务与图片标签35°，解析菱形构造；有限网格含圆弧与刃口倒角",
+    "hiddenStructures": "刀座背面/垫座/螺丝内部为演示重建",
+    "machineAxes": "不定义S205A机床轴配置",
+    "manualReviewRequired": [
+      "制造商与准确型号",
+      "刀杆宽高长度",
+      "刀片实际长短对角线、厚度与标准代号",
+      "实际鼻圆与刃口处理",
+      "主偏角、手向与实机安装方向",
+      "刀座背面、底部、内孔、后角及支承方式",
+      "螺丝规格、驱动型式、螺纹与锁紧方式",
+      "材质牌号、涂层与切屑槽"
+    ]
+  },
+  "collisionInterface": {
+    "components": "按componentRole和独立mesh名称获取；未来可替换CAD碰撞包络",
+    "algorithmIncluded": false,
+    "contactIsNotPenetration": true
+  },
+  "compatibility": {
+    "testedThreeVersion": "0.169.0",
+    "webBrowser": "见reports/browser.json，不等于物理手机验证",
+    "wechatNativeWebGL": "待适配小程序canvas、加载器IO和GLB解析，未真机测试",
+    "wechatWebView": "待HTTPS业务域名、包体、iOS/Android性能和生命周期真机验证"
+  }
+}

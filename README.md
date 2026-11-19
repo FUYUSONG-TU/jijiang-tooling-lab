@@ -67,3 +67,11 @@ node /workspace/tooling-sample/verify.cjs
 准确型号、制造商尺寸图、刀杆与刀片全尺寸、鼻圆及刃口处理、主偏角、手向、真实安装方向、座底/背面/后角/支承、螺丝与驱动槽规格、螺纹、材料牌号与断屑槽。上述项在参数JSON中有同一份清单。
 
 本轮没有批量制作其他刀具，等待本样板人工验收后再扩展。
+
+## 独立G01真实刀具教学Demo
+
+新增入口：[demos/g01-real-tool/index.html](demos/g01-real-tool/index.html)。从仓库根目录执行 `python -m http.server 8770 --directory demos/g01-real-tool`，浏览器打开 http://localhost:8770/ 。
+
+复用35°GLB与版本刀尖坐标，支持三档鼻圆、典型走心机两种运动视图、逐行播放和参数调整。默认浅切可演示；深切与小棒料条件的干涉会如实报告并暂停，目前不建议直接用于正式替换或真实机床。
+
+[安装与验收说明](demos/g01-real-tool/README.md) · [真实/简化对比](demos/g01-real-tool/reports/comparison.jpg) · [独立Demo ZIP](g01-real-tool-demo.zip)。报告保留独立实验环境的原始路径和测量结果。
