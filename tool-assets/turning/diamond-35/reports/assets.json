@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "variantCount": 3,
+  "professionalToolCount": 1,
+  "results": [
+    {
+      "variant": "r02",
+      "bytes": 529020,
+      "meshCount": 5,
+      "materialCount": 4,
+      "textureCount": 0,
+      "triangles": 8416,
+      "bboxMaxErrorMm": 4.76837158203125e-07,
+      "tipVertexErrorMm": 5.90881891944118e-06,
+      "measuredIncludedAngleDegrees": 34.99962183281605,
+      "measuredNoseRadiusMm": 0.2,
+      "arcVertices": 192,
+      "arcMaxErrorMm": 1.0848650204620114e-05,
+      "degenerateTriangles": 0
+    },
+    {
+      "variant": "r04",
+      "bytes": 528988,
+      "meshCount": 5,
+      "materialCount": 4,
+      "textureCount": 0,
+      "triangles": 8416,
+      "bboxMaxErrorMm": 5.7220458984375e-06,
+      "tipVertexErrorMm": 2.201756872562117e-06,
+      "measuredIncludedAngleDegrees": 35.00000954945266,
+      "measuredNoseRadiusMm": 0.4,
+      "arcVertices": 192,
+      "arcMaxErrorMm": 4.465145811816118e-06,
+      "degenerateTriangles": 0
+    },
+    {
+      "variant": "r08",
+      "bytes": 529216,
+      "meshCount": 5,
+      "materialCount": 4,
+      "textureCount": 0,
+      "triangles": 8422,
+      "bboxMaxErrorMm": 9.5367431640625e-07,
+      "tipVertexErrorMm": 1.8264572545475547e-06,
+      "measuredIncludedAngleDegrees": 34.999996738579156,
+      "measuredNoseRadiusMm": 0.8,
+      "arcVertices": 192,
+      "arcMaxErrorMm": 7.3439816830056515e-06,
+      "degenerateTriangles": 0
+    }
+  ],
+  "totalModelBytes": 1587224,
+  "limits": "离散网格/指定表面检查，不是CAD实体安全或厂家尺寸认证"
+}

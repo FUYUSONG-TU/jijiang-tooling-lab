@@ -1,0 +1,201 @@
+{
+  "modelVersion": "2.0.0",
+  "professionalToolCount": 1,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1197,
+      "sha256": "ada801e0516deb5a6ee207039dcde39389b2bda767bec410f91a458630002c29"
+    },
+    {
+      "path": "docs/geometry.md",
+      "bytes": 4343,
+      "sha256": "c2f1508e1e5aedf0d30a9c8d0e69baa5b776aefd0a2f68da24aedb76246ee22e"
+    },
+    {
+      "path": "docs/integration.md",
+      "bytes": 6568,
+      "sha256": "89183cff2b8af129b84926008da0cc27af3eefdf9a51946520a597a6576b17c5"
+    },
+    {
+      "path": "docs/verification.md",
+      "bytes": 4918,
+      "sha256": "901bf7403d69ce8d5644c87fc3842bcb5d1e629e0cb4a5468d69d631b83ada19"
+    },
+    {
+      "path": "examples/install-tool.js",
+      "bytes": 1384,
+      "sha256": "291a7edc31b681473e08e4327cf65913b6e3f82f6a932121f623e26d0334f588"
+    },
+    {
+      "path": "lib/tool-loader.js",
+      "bytes": 6647,
+      "sha256": "f614198ddcd8853227213ab6fc596bc7642c79e24cc09e002aa14daf61036945"
+    },
+    {
+      "path": "metadata/tool.json",
+      "bytes": 22832,
+      "sha256": "825a46961c85308a16318b9a7eb3ed55f9395dc50a0afd4bec79a099f9428a6a"
+    },
+    {
+      "path": "models/diamond-35-r02.glb",
+      "bytes": 529020,
+      "sha256": "0582dcff1680aa4f82ef609d31e0c7b7c68ced0d86843eea00f6c0882ae621f3"
+    },
+    {
+      "path": "models/diamond-35-r04.glb",
+      "bytes": 528988,
+      "sha256": "06e109908888c9c50e683e21e5f518f251b36ed32fe8e1fab8d96b77204021dd"
+    },
+    {
+      "path": "models/diamond-35-r08.glb",
+      "bytes": 529216,
+      "sha256": "1b9a0293cb7bf3d80b87b107f20e5551460b3c4d218e416cfd66fafbacb4fe13"
+    },
+    {
+      "path": "package.json",
+      "bytes": 332,
+      "sha256": "1859cc445d3b3ec8f6a4cbd0b5f3719464dc69339be69b5830c6bdb3c09dbbbf"
+    },
+    {
+      "path": "preview/index.html",
+      "bytes": 12139,
+      "sha256": "9e124028724e951742d8155bced9d6c08f68b2ed4997b95917d5de35c8646b0d"
+    },
+    {
+      "path": "references/README.md",
+      "bytes": 717,
+      "sha256": "a5aec2549fe8f717f20f81c4578b2d31592e7e18a4e4eafaa88775d942fb8d69"
+    },
+    {
+      "path": "reports/assets.json",
+      "bytes": 1557,
+      "sha256": "22310292748ea4fa7abe3803347fbec3b947914720872b1beb9d080aea7626d9"
+    },
+    {
+      "path": "reports/browser.json",
+      "bytes": 1081,
+      "sha256": "c49049701b6aa0bd8bd45d032565fe51c30a611a2113882a090f812b93dd9bcb"
+    },
+    {
+      "path": "reports/front.png",
+      "bytes": 494254,
+      "sha256": "1ea464db3cf4438dd2fe26f1093d006af95e559de6b6a811be8e9c20cc10a76e"
+    },
+    {
+      "path": "reports/full.png",
+      "bytes": 501850,
+      "sha256": "f058b258e3ae266f59c237f19045ac85a1e70ce83093755b5bc4b6537d7da149"
+    },
+    {
+      "path": "reports/iso.png",
+      "bytes": 500830,
+      "sha256": "dc679f9d1636da4f9fa4f3bd192373740c0a219f622cb2992e2d50fc59d8ed33"
+    },
+    {
+      "path": "reports/mobile.png",
+      "bytes": 221682,
+      "sha256": "1112cf19a00f92ccc2953e4afc0a6a7e92ce64223dd28710e70332871f4e9793"
+    },
+    {
+      "path": "reports/relocation.json",
+      "bytes": 240,
+      "sha256": "2abede91a452b8ed021e1c180759f6713c2f033a646d18936e4bacbb8e496986"
+    },
+    {
+      "path": "reports/side.png",
+      "bytes": 445758,
+      "sha256": "0baab25ad3af5662368b8b8fc11c8c961af53235d2be38e7462f1e70c8d63342"
+    },
+    {
+      "path": "reports/top.png",
+      "bytes": 497608,
+      "sha256": "b6d178d894f85d5097ff54f6c46483e582ece8d822fc5cca16e8b3171603f73c"
+    },
+    {
+      "path": "sources/original/build_tool.py",
+      "bytes": 10951,
+      "sha256": "d17722b7b3649bfbb86c18aa9a354bc5af755ac398d556b8a7296434f6ce55cb"
+    },
+    {
+      "path": "sources/original/quality-r0.2.json",
+      "bytes": 1884,
+      "sha256": "a9924f247e10ac309a007a157eaa91e068f53138eeb32b920a7b6d443c7c6897"
+    },
+    {
+      "path": "sources/original/quality-r0.4.json",
+      "bytes": 1884,
+      "sha256": "19feed11c414b43c6ab52a1f267d20d987491770446eb1342a3962741dd351c5"
+    },
+    {
+      "path": "sources/original/quality-r0.8.json",
+      "bytes": 1884,
+      "sha256": "1f294dd322d558403645aca8f64f03b6271674fbd90a09ee4de391d0281cdf89"
+    },
+    {
+      "path": "sources/original/reference-source.json",
+      "bytes": 309,
+      "sha256": "6a0fbc5ce87cd3f32124fe3361675a374f42285287d2174bd3ad2b9f765e266f"
+    },
+    {
+      "path": "sources/original/tool35-r0.2.blend",
+      "bytes": 1013924,
+      "sha256": "adef713bf85e871ac14996cac508f535147b384dfeb56e59087c18f0c4508a33"
+    },
+    {
+      "path": "sources/original/tool35-r0.2.json",
+      "bytes": 2120,
+      "sha256": "8e395a48476810e679be061c09c6393bde5f04558cab696878ce52d7dc0d7bad"
+    },
+    {
+      "path": "sources/original/tool35-r0.4.blend",
+      "bytes": 1013924,
+      "sha256": "0dbf487b2602cedc0bef22139be1474c134aed080186b6baea348a315610a05f"
+    },
+    {
+      "path": "sources/original/tool35-r0.4.json",
+      "bytes": 2120,
+      "sha256": "8748d66fda026c84a45d9b318f8be8a48293cb8d62a602be9a12e0189c265602"
+    },
+    {
+      "path": "sources/original/tool35-r0.8.blend",
+      "bytes": 1014112,
+      "sha256": "57d82748bc91976f89dd3d191325608dce0cbc6ba57eaace961d116d875d2cec"
+    },
+    {
+      "path": "sources/original/tool35-r0.8.json",
+      "bytes": 2120,
+      "sha256": "77068849404300a7d192a89c482d3d517790987c912b768f333575ddb8cc018a"
+    },
+    {
+      "path": "sources/standardize.py",
+      "bytes": 7302,
+      "sha256": "4e6622d320e1685320b6f1b0deea6e42be1c56c9a6285a0d1d6f249553028850"
+    },
+    {
+      "path": "tests/build_report.py",
+      "bytes": 5536,
+      "sha256": "d57eb578f064c36464fa67a58236b7d43ccb4d53fcd5dd276c4e5fc724b77bf3"
+    },
+    {
+      "path": "tests/package_assets.py",
+      "bytes": 1098,
+      "sha256": "2d6bdc9d6540c7450d4e07c435e1682864fa225ce69096b10c8bc9c4e5f056a8"
+    },
+    {
+      "path": "tests/verify_assets.py",
+      "bytes": 6330,
+      "sha256": "d6bc8a70a9ad1a126e420eced8fb25aee1d51e3125087d924af0e5f2831eac51"
+    },
+    {
+      "path": "tests/verify_browser.cjs",
+      "bytes": 7394,
+      "sha256": "ceaa060ef415430c90278bf60df765413dc3256068f0c867092d04a308ba7a99"
+    },
+    {
+      "path": "tests/verify_zip.cjs",
+      "bytes": 2728,
+      "sha256": "cdd7abcbc26aea0df8368c875ef70b4f9cdef0f456943229a37cfd14ed5e9782"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "zipFile": "diamond-35-tool-package.zip",
+  "manifestFilesVerified": 39,
+  "isolatedTempDirectory": true,
+  "independentHttpOrigin": true,
+  "variantsLoaded": [
+    "r02",
+    "r04",
+    "r08"
+  ],
+  "pageErrors": []
+}

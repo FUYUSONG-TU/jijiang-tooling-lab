@@ -1,0 +1,12 @@
+{
+  "name": "jijiang-diamond-35-tool-assets",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify:assets": "python3 tests/verify_assets.py",
+    "verify:browser": "node tests/verify_browser.cjs"
+  },
+  "peerDependencies": { "three": "0.169.0" },
+  "devDependencies": { "playwright": "1.62.1" }
+}

@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "variant": "r02",
+      "bboxError": 4.76837158203125e-7,
+      "tipError": 0.00000590881891944118
+    },
+    {
+      "variant": "r04",
+      "bboxError": 0.0000057220458984375,
+      "tipError": 0.000002201756872562117
+    },
+    {
+      "variant": "r08",
+      "bboxError": 9.5367431640625e-7,
+      "tipError": 0.0000018264572545475547
+    }
+  ],
+  "interfaces": {
+    "worldTipError": 1.4210854715202004e-14,
+    "disposeCount": 5,
+    "shared": false,
+    "otherWorks": true,
+    "rejected": true,
+    "requests": 1,
+    "cached": {
+      "byteEntries": 1
+    },
+    "cacheAfterClear": {
+      "byteEntries": 0
+    },
+    "mount": [
+      0,
+      0,
+      0
+    ],
+    "preserved": true,
+    "newRadius": 0.8
+  },
+  "touchRotationChanged": true,
+  "mobileViewport": {
+    "width": 390,
+    "height": 844,
+    "noHorizontalOverflow": true
+  },
+  "cloudActiveRotationFps": 42.297855597088315,
+  "pageErrors": [],
+  "networkErrors": [],
+  "physicalPhoneTested": false,
+  "wechatNativeTested": false,
+  "wechatWebViewTested": false
+}

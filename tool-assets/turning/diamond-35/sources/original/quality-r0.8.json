@@ -1,0 +1,72 @@
+{
+  "noseRadius": 0.8,
+  "includedAngle": 35,
+  "contactPlanes": {
+    "holderPocketFloor": -2.2,
+    "seatBottom": -2.2,
+    "seatTop": -1.6,
+    "insertBottom": -1.6
+  },
+  "seatGap": 0,
+  "screwAxis": [
+    -1,
+    -5
+  ],
+  "insertHoleAxis": [
+    -1,
+    -5
+  ],
+  "screwShaftRadialClearance": 0.12,
+  "components": {
+    "Holder_Main": {
+      "vertices": 512,
+      "faces": 339,
+      "nonManifoldEdges": 0,
+      "signedVolumeMm3": 7087.692165895385,
+      "finiteNormals": true
+    },
+    "Insert_Seat": {
+      "vertices": 1176,
+      "faces": 984,
+      "nonManifoldEdges": 0,
+      "signedVolumeMm3": 31.240882982655265,
+      "finiteNormals": true
+    },
+    "Carbide_Insert_35deg": {
+      "vertices": 1279,
+      "faces": 1084,
+      "nonManifoldEdges": 0,
+      "signedVolumeMm3": 144.4114548034935,
+      "finiteNormals": true
+    },
+    "Screw_Shaft": {
+      "vertices": 768,
+      "faces": 674,
+      "nonManifoldEdges": 0,
+      "signedVolumeMm3": 14.120785039877296,
+      "finiteNormals": true
+    },
+    "Screw_Head": {
+      "vertices": 482,
+      "faces": 576,
+      "nonManifoldEdges": 0,
+      "signedVolumeMm3": 6.856676867848411,
+      "finiteNormals": true
+    }
+  },
+  "surfaceIntersections": {
+    "Holder_Main / Carbide_Insert_35deg": 0,
+    "Holder_Main / Screw_Head": 0,
+    "Insert_Seat / Screw_Head": 0,
+    "Carbide_Insert_35deg / Screw_Head": 0,
+    "Carbide_Insert_35deg / Screw_Shaft": 0
+  },
+  "tipToMeshVertexDistanceMm": 0.0,
+  "limitations": [
+    "BVH 检查针对网格表面，不是认证CAD实体求交",
+    "刀座、背面与紧固孔内部为明确未核验的演示重建",
+    "座体与刀片及刀杆底面共面贴合为装配接触",
+    "螺纹、牌号、涂层、精确后角未核验；不模拟螺纹啮合",
+    "鼻圆在模型中以有限圆弧细分并含微小刃口倒角，基准按顶面圆弧设计点"
+  ]
+}
