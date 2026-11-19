@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "toolId": "JJ-OD35-SAMPLE-001",
+  "toolName": "35°菱形外圆车刀 · 图片结构样板",
+  "toolType": "external-turning",
+  "holderWidth": 10,
+  "holderHeight": 10,
+  "holderLength": 77.65959644317627,
+  "insertShape": "35° rhombus / V形，未确认ISO型号",
+  "insertIncludedAngle": 35,
+  "approachAngle": null,
+  "noseRadius": 0.4,
+  "hand": "待确认",
+  "mountingOrientation": {
+    "insertPlanRotation": -18,
+    "rake": 0,
+    "status": "模型局部演示安装姿态，不是主偏角或实机安装值"
+  },
+  "cuttingTipPosition": [
+    -3.800455093383789,
+    -13.618913650512695,
+    0.9926776885986328
+  ],
+  "nominalNoseArcApex": [
+    -3.8027209785401044,
+    -13.625888214948596,
+    1.0
+  ],
+  "virtualSharpTipPosition": [
+    -4.0901699437494745,
+    -14.510565162951535,
+    1.0
+  ],
+  "modelSource": [
+    {
+      "file": "references/tooling/5-照片-5.jpg",
+      "region": "第二排第四格 / 35度菱形刀",
+      "dimensionsAvailable": false
+    }
+  ],
+  "verificationStatus": {
+    "structure": "基于单张透视图可见结构重建，待用户复核",
+    "insertIncludedAngle": "图片标签与任务明确35°；模型解析构造35°",
+    "dimensions": "全部线性尺寸为演示默认值，非产品尺寸",
+    "approachAngle": "待确认",
+    "hiddenGeometry": "刀座底部、背面、沉孔与螺丝内部为演示重建"
+  },
+  "units": "mm",
+  "additionalDemoDimensions": {
+    "rearShankDatumLength": 65,
+    "insertVirtualLongDiagonal": 20,
+    "insertVirtualShortDiagonal": 6.30597577757967,
+    "insertThickness": 2.6,
+    "seatThickness": 0.6,
+    "centerHoleDiameter": 2.24,
+    "screwDrive": "演示六瓣凹槽，真实规格待确认"
+  },
+  "unconfirmed": [
+    "制造商与准确型号",
+    "刀杆宽高长度",
+    "刀片实际长短对角线、厚度与标准代号",
+    "实际鼻圆与刃口处理",
+    "主偏角、手向与实机安装方向",
+    "刀座背面、底部、内孔、后角及支承方式",
+    "螺丝规格、驱动型式、螺纹与锁紧方式",
+    "材质牌号、涂层与切屑槽"
+  ]
+}

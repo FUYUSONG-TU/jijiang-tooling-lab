@@ -1,0 +1,11 @@
+# 本地运行日志和临时文件
+*.log
+*.blend1
+*.blend2
+__pycache__/
+*.py[cod]
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store

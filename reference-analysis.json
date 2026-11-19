@@ -1,0 +1,243 @@
+[
+  {
+    "file": "1-照片-1.jpg",
+    "identification": "内孔刀具系列图，共9项",
+    "tools": [
+      {
+        "label": "MTR",
+        "imageText": "MTR 8 B0.2 L32",
+        "visibleStructure": "圆柱柄、上部扁平、金色前段、侧向刃",
+        "parameters": {
+          "toolType": "internal-turning",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      },
+      {
+        "label": "MUR",
+        "imageText": "MUR 6 R0.2 L22",
+        "visibleStructure": "圆柱柄、前端斜切和侧刃",
+        "parameters": {
+          "toolType": "internal-profiling",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      },
+      {
+        "label": "MQR",
+        "imageText": "MQR 5 R0.2 L15",
+        "visibleStructure": "短阶梯前段与尖角",
+        "parameters": {
+          "toolType": "internal-profiling",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      },
+      {
+        "label": "MPR",
+        "imageText": "MPR 8 R0.2 L27",
+        "visibleStructure": "加宽前端和阶梯槽",
+        "parameters": {
+          "toolType": "internal-profiling",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      },
+      {
+        "label": "MNR",
+        "imageText": "MNR 6 R0.2 L22",
+        "visibleStructure": "短斜面前端与长平面",
+        "parameters": {
+          "toolType": "internal-profiling",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      },
+      {
+        "label": "MKR",
+        "imageText": "MKR 5 FR1.0 L22",
+        "visibleStructure": "下勾圆弧刃、阶梯缩颈",
+        "parameters": {
+          "toolType": "internal-radius-grooving",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      },
+      {
+        "label": "MGR",
+        "imageText": "MGR 8 B2.0 L22",
+        "visibleStructure": "向下窄槽刃、缩颈",
+        "parameters": {
+          "toolType": "internal-grooving",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      },
+      {
+        "label": "MFR",
+        "imageText": "MFR 6 B3.0 L22",
+        "visibleStructure": "台阶端面刃",
+        "parameters": {
+          "toolType": "face-grooving",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      },
+      {
+        "label": "MIR",
+        "imageText": "MIR 8 A60 L22",
+        "visibleStructure": "小三角牙型前刃",
+        "parameters": {
+          "toolType": "internal-threading",
+          "holderWidth": null,
+          "holderHeight": null,
+          "holderLength": null,
+          "approachAngle": null,
+          "verificationStatus": "仅图片文字转录，型号含义和尺寸未核验"
+        }
+      }
+    ],
+    "unconfirmed": [
+      "透视照片无比例尺，不能反推真实尺寸",
+      "制造商、准确型号、材料牌号与隐藏背面未确认",
+      "图片首项可读为MTR，不将其误写为MIR；MIR位于最后一项",
+      "字母/数字含义须查制造商资料，当前未转换为尺寸"
+    ],
+    "sha256": "4d0e86fc29159405a305a0d88364926ed096b84eeef3b76fb00a5488caa40737"
+  },
+  {
+    "file": "2-照片-2.jpg",
+    "identification": "KUHO 夹头与背夹对比",
+    "visibleStructure": [
+      "圆柱体、台阶法兰、锥形前端",
+      "轴向开槽、中心异形孔、侧面孔/长槽"
+    ],
+    "confirmedText": [
+      "夹头",
+      "背夹",
+      "KUHO"
+    ],
+    "parameters": {
+      "toolType": "collet / back-collet",
+      "dimensions": null,
+      "verificationStatus": "无尺寸，不生成模型"
+    },
+    "unconfirmed": [
+      "透视照片无比例尺，不能反推真实尺寸",
+      "制造商、准确型号、材料牌号与隐藏背面未确认",
+      "内孔截面、锥度、槽深、弹性夹持结构与兼容型号"
+    ],
+    "sha256": "1ede268420c353fbd811d360251af342f66dbcbe98d0ebd53013ebc15fea9d15"
+  },
+  {
+    "file": "3-照片-3.jpg",
+    "identification": "走心机排刀示意与实拍",
+    "visibleStructure": [
+      "排刀板多工位安装、外圆与端面刀位",
+      "另一侧钻头/内孔刀座、主轴夹持结构"
+    ],
+    "parameters": {
+      "toolType": "gang-tool-installation",
+      "mountingOrientation": null,
+      "verificationStatus": "布局参考，非安装标定"
+    },
+    "unconfirmed": [
+      "透视照片无比例尺，不能反推真实尺寸",
+      "制造商、准确型号、材料牌号与隐藏背面未确认",
+      "坐标方向、排刀间距、具体机型与刀座接口"
+    ],
+    "sha256": "cb6e32823d2141a12559f4fb8463b4072b53e4734fc899230cb5734acb6bb7a7"
+  },
+  {
+    "file": "4-照片-4.jpg",
+    "identification": "与第3张内容重复的排刀图",
+    "duplicateOf": "3-照片-3.jpg",
+    "parameters": {
+      "toolType": "gang-tool-installation",
+      "verificationStatus": "重复视图，非额外几何证据"
+    },
+    "unconfirmed": [
+      "透视照片无比例尺，不能反推真实尺寸",
+      "制造商、准确型号、材料牌号与隐藏背面未确认"
+    ],
+    "sha256": "cb6e32823d2141a12559f4fb8463b4072b53e4734fc899230cb5734acb6bb7a7"
+  },
+  {
+    "file": "5-照片-5.jpg",
+    "identification": "外圆刀杆分类拼图：4×4共16格",
+    "labels": [
+      "91度车刀",
+      "90度菱形刀",
+      "外圆桃型刀",
+      "55度三角刀",
+      "95度车刀",
+      "93度菱形车刀",
+      "外圆切槽刀",
+      "35度菱形刀",
+      "45度车刀",
+      "72.5度车刀",
+      "60度车刀",
+      "50度车刀",
+      "40度车刀",
+      "105度车刀",
+      "107.5度车刀",
+      "75度车刀"
+    ],
+    "visibleStructure": [
+      "不同刀片外形、中心孔与螺丝",
+      "部分外部压板与偏置紧固结构",
+      "样板格：窄长金色菱形片、中心黑色螺丝、银灰斜切刀头、浅色矩形刀杆"
+    ],
+    "sampleRegion": {
+      "row": 2,
+      "column": 4,
+      "cropPixels": [
+        736,
+        456,
+        960,
+        725
+      ]
+    },
+    "parameters": {
+      "toolId": "JJ-OD35-SAMPLE-001",
+      "insertIncludedAngle": 35,
+      "approachAngle": null,
+      "holderWidth": null,
+      "holderHeight": null,
+      "holderLength": null,
+      "verificationStatus": "仅样板格35°标签确认；其他角度标签不擅自解释为刀尖角或主偏角"
+    },
+    "unconfirmed": [
+      "透视照片无比例尺，不能反推真实尺寸",
+      "制造商、准确型号、材料牌号与隐藏背面未确认",
+      "后部完整刀杆未入镜",
+      "中心孔与紧固结构可见，具体驱动型式、孔锥角和螺纹未知",
+      "刀座底部、背面、刀片实际鼻圆、主偏角及左右手未知"
+    ],
+    "sha256": "632c5f6090cb3e4c05014154f59ae773dbff1630fc6e251f6eba21c80a3224b2"
+  }
+]
