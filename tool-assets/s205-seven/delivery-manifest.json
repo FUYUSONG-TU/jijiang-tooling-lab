@@ -1,0 +1,481 @@
+{
+  "modelVersion": "1.0.0",
+  "newToolCount": 7,
+  "files": [
+    {
+      "path": "demos/s205-tool-stations/app.js",
+      "bytes": 10733,
+      "sha256": "c5e1f14059189a75b1504845afcadc1c28187dcddbdf7cc4fe83bbac9376c2cb"
+    },
+    {
+      "path": "demos/s205-tool-stations/index.html",
+      "bytes": 8426,
+      "sha256": "7ec1476f065023a4504dbc6095dd799d6a939cc2c88e134322037c467a2844ac"
+    },
+    {
+      "path": "tool-assets/s205-seven/README.md",
+      "bytes": 859,
+      "sha256": "9fdfbebdc3c235ebc0ed76c4185b1719ee49d18e9386f7e905600288f96f9b78"
+    },
+    {
+      "path": "tool-assets/s205-seven/catalog.json",
+      "bytes": 1674,
+      "sha256": "9f47ef069cd4965ef39b6bc383fe6d9f50da04a7655f27becd4bc032cd920c6e"
+    },
+    {
+      "path": "tool-assets/s205-seven/docs/geometry.md",
+      "bytes": 3652,
+      "sha256": "89018755074cd10a267305a5e036fe106b1e6a5462f6ca5e5b54864553519681"
+    },
+    {
+      "path": "tool-assets/s205-seven/docs/integration.md",
+      "bytes": 5645,
+      "sha256": "29681c83d0bde7123a405f7c844be31cd89efe84c199e1175b23fa6be5deceb7"
+    },
+    {
+      "path": "tool-assets/s205-seven/docs/references.md",
+      "bytes": 1363,
+      "sha256": "68d7de0976e6b00fb68948a13d2477f9268e657d1b1c082314a8d50e2f5d4deb"
+    },
+    {
+      "path": "tool-assets/s205-seven/docs/verification.md",
+      "bytes": 4468,
+      "sha256": "8d00cf76aa38f89fdff247855098c13ccad2432cffc0a9cf414ea1795b6e4be8"
+    },
+    {
+      "path": "tool-assets/s205-seven/lib/stations.js",
+      "bytes": 4158,
+      "sha256": "489b37c4fced377631dad4c4d1b56f4c5c75a7fb65a6484d4cab37bcc6042568"
+    },
+    {
+      "path": "tool-assets/s205-seven/lib/tools.js",
+      "bytes": 4454,
+      "sha256": "c268c1b45b0bae0a53406c8f4585ab82665db8fe69f2bec1aad568b95fa850a2"
+    },
+    {
+      "path": "tool-assets/s205-seven/metadata/center-drill.json",
+      "bytes": 3743,
+      "sha256": "7b73242b134800c1bada057edbd8769b06a38b5cbb72adea662abe66f19576be"
+    },
+    {
+      "path": "tool-assets/s205-seven/metadata/external-grooving.json",
+      "bytes": 6001,
+      "sha256": "0182d98880574cfce0b293f269ecf474774be90426025acc4cb1bb69da46ab8d"
+    },
+    {
+      "path": "tool-assets/s205-seven/metadata/external-threading.json",
+      "bytes": 5737,
+      "sha256": "86e132ea639308b000b2e27949efb43f7a2ca8dae1571c5c614a681bf496e24c"
+    },
+    {
+      "path": "tool-assets/s205-seven/metadata/internal-boring.json",
+      "bytes": 6540,
+      "sha256": "f700aed50e842ff2b190649476acddda5f1a5ab32b94d85d1b490d0f9d34771c"
+    },
+    {
+      "path": "tool-assets/s205-seven/metadata/parting-off.json",
+      "bytes": 6555,
+      "sha256": "2e684d15f715427e40188e25c120a1a248ac98baafc176cc828a44771660da62"
+    },
+    {
+      "path": "tool-assets/s205-seven/metadata/solid-carbide-endmill.json",
+      "bytes": 3797,
+      "sha256": "6f7faf2764c28376e73aae5e2eac8e9b2d3e252f0640440e29be8614c05c216f"
+    },
+    {
+      "path": "tool-assets/s205-seven/metadata/twist-drill.json",
+      "bytes": 3710,
+      "sha256": "5de1bdfa05817519eba6aa5f71faf2dd2151b7aaa1844d924321ca0efd56d38b"
+    },
+    {
+      "path": "tool-assets/s205-seven/models/center-drill.glb",
+      "bytes": 117880,
+      "sha256": "3e6c3b87e5a64acfde7cebbc26b07c3de1044710e803f33bc8e626d759ceda0e"
+    },
+    {
+      "path": "tool-assets/s205-seven/models/external-grooving.glb",
+      "bytes": 119628,
+      "sha256": "fc50a637c73fbcf1feda339aeaf6e4f5318ea2190b9cdda73b40743bb8ad2554"
+    },
+    {
+      "path": "tool-assets/s205-seven/models/external-threading.glb",
+      "bytes": 118096,
+      "sha256": "98df0695a0d01cb0e1a2693cfcd776890115b012c260a9792ec90fb21c6913ad"
+    },
+    {
+      "path": "tool-assets/s205-seven/models/internal-boring.glb",
+      "bytes": 114912,
+      "sha256": "ae23e6d665306eb102c303f14b122ae82655a575080c06d476fc62d8be7da0c0"
+    },
+    {
+      "path": "tool-assets/s205-seven/models/parting-off.glb",
+      "bytes": 107300,
+      "sha256": "8981078e26487e98d653f8329d0ca8a4b26541366dc0dabbd7eb8a2b51c36045"
+    },
+    {
+      "path": "tool-assets/s205-seven/models/solid-carbide-endmill.glb",
+      "bytes": 159708,
+      "sha256": "261c9dc2b0a1308ce33f88f85213749fdbf7d3e85e040df4c5abb1753ec62f97"
+    },
+    {
+      "path": "tool-assets/s205-seven/models/twist-drill.glb",
+      "bytes": 147056,
+      "sha256": "9f7e22c1978f1428b0556f2cce0e878c4c5dd582ff06db26f467330a6f14bade"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/assembly-check.json",
+      "bytes": 177,
+      "sha256": "dbb2617d9cda42c664726abd695b9c9db28c73ee718724690960899fd9678bc0"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/baseline-hashes.json",
+      "bytes": 10803,
+      "sha256": "3dafcd31ee5bb19aeacaac7bf994fc22aa85bb1335572619705c98079e964556"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/browser-validation.json",
+      "bytes": 17749,
+      "sha256": "ca482e880b76f2981eac56a4dfd5cf84db3682f80f2a52fca53f1e955fc02529"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/center-drill-close.png",
+      "bytes": 286953,
+      "sha256": "b95d8f99e717b491129242bf97d3bbc2e9c63be428fd5c2065b63e3d17749da8"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/center-drill-four-views.jpg",
+      "bytes": 103370,
+      "sha256": "fbd5d0aa267c279d6d34e173db16ed12646ffff0d507f88994c465fc3cb243b6"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/center-drill-front.png",
+      "bytes": 255139,
+      "sha256": "4f84465c5c0f11ff4206ab8da92fb936d6e8d7bc9e7dd9220816b466967f2282"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/center-drill-iso.png",
+      "bytes": 287015,
+      "sha256": "c714443249d367f30b0040cb862a5232b219740d607f900c02136d7c13e1e63b"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/center-drill-side.png",
+      "bytes": 250394,
+      "sha256": "37f72a8a01780507b8762d57ee69402e83d055d66dff89000f30250ccb8ed61a"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/center-drill-station.png",
+      "bytes": 329006,
+      "sha256": "02fb8baab7b8c50cf39976efc583ee5b46b9e9d6ac4b7543c1722d78435ec042"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/center-drill-top.png",
+      "bytes": 281092,
+      "sha256": "22b9eb35ba20e9721a955cdb33de1c713abe63d7a3190d2be8b5d8242485790d"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-grooving-close.png",
+      "bytes": 245109,
+      "sha256": "1380914760edacb4e53644a83a888a0808847ea5d55b015295b5549eb0d772ba"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-grooving-four-views.jpg",
+      "bytes": 94227,
+      "sha256": "59058e7ce488a1142ff3fc8d028bd71e2513f27e6dce90960443aaf043b2c1fa"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-grooving-front.png",
+      "bytes": 234911,
+      "sha256": "d1a355530b219e7a6801678acbd521b0f9d846d8c863c0bf3f893d00b135b3c5"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-grooving-iso.png",
+      "bytes": 247346,
+      "sha256": "206bcd71e76c3d72ae6657dd4f9fa9e17c364890cdd72d65ed23f92f6a9d54ed"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-grooving-side.png",
+      "bytes": 220603,
+      "sha256": "533bbec2bc2a7ff1c579353ae3164ffbbf1516ef94f2d32a0cfd6d89dca972e5"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-grooving-station.png",
+      "bytes": 327897,
+      "sha256": "620ad99eaeac33b1b4df0b9f634e29419c9e4684a1b283bd51fc83377581eab1"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-grooving-top.png",
+      "bytes": 260642,
+      "sha256": "46343bcd9350fb37479892490269acae19775d14037fc92f267fda23f41fd8df"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-threading-close.png",
+      "bytes": 245320,
+      "sha256": "c59b999641b67e1c7c9840f768f0aa8a6eda2b3e1a526cb266c70e28c173b3c2"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-threading-four-views.jpg",
+      "bytes": 93352,
+      "sha256": "251430594dc8d723fc0a5735807c59a3e979350a3adefe513519ab6c2b87fb22"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-threading-front.png",
+      "bytes": 234834,
+      "sha256": "02941b9d0be4ca31d81e6d914460b0d6863d60f43e220cbefefec81fcb89e55b"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-threading-iso.png",
+      "bytes": 247559,
+      "sha256": "edf92d3aec7e41d4aee9b19f3c63d7d34f7e73e4cc288c590008ac1b20ab5a43"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-threading-side.png",
+      "bytes": 220889,
+      "sha256": "8f7037b17314a5b7cfe2eb7e18c01e2dca5a31764c3ee201d382a285d5401f35"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-threading-station.png",
+      "bytes": 328167,
+      "sha256": "85ba65515ae36238d831f27ad2a5046672619c53f10ca242de2601105f5ce6b8"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/external-threading-top.png",
+      "bytes": 261228,
+      "sha256": "0757c9460963029bb9a7a097572f819a268a1e895fdad0809f1bedc55653ac34"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/glb-validation.json",
+      "bytes": 2752,
+      "sha256": "88ec5dad011d20b5e547aafd87920f05225e41f540caec307fa218c86cdd850d"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/internal-boring-close.png",
+      "bytes": 276199,
+      "sha256": "158e036ed5872808c1f29b557f5550c121eec58c30b51d3517bfa3124e2ec58b"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/internal-boring-four-views.jpg",
+      "bytes": 96298,
+      "sha256": "58020f12351558feae9b890637937a808cd9830b02ecd85769c58f09a635a5b9"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/internal-boring-front.png",
+      "bytes": 235074,
+      "sha256": "2e0f1b9466de584aca13da819f5809b0ef38af90704e33078db3cf3a0589e06c"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/internal-boring-iso.png",
+      "bytes": 263701,
+      "sha256": "d21db742ef9f369bfbb6e405f56c38f026fe54a08443be7f2ac1ad21ddcdcca8"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/internal-boring-side.png",
+      "bytes": 233873,
+      "sha256": "21bb0fe965a5f030d39a94a8dac87a85375a6c209f5a242d073db103a5f791fb"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/internal-boring-station.png",
+      "bytes": 330374,
+      "sha256": "2587b205887d59730c3bafe755396440e7750e239e0f4a76900ac07ea1b5e419"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/internal-boring-top.png",
+      "bytes": 268901,
+      "sha256": "c49276ecc71832678bf274a5c36e84ef6a38e0a508440b3149556169c4a094f5"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/mobile.png",
+      "bytes": 315240,
+      "sha256": "7e15064d47bea1b2a87ac576da87b4376629ef701d77de9ad980e62e30555912"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/parting-off-close.png",
+      "bytes": 254453,
+      "sha256": "22551d411ee9bc319519fa79d6225c59ba74dd5c02b095a899ecb3a07b464fe9"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/parting-off-four-views.jpg",
+      "bytes": 91832,
+      "sha256": "692ee2194b963dd486100a28d349e4a9f8d4805c1bb53b0296879de481c5120c"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/parting-off-front.png",
+      "bytes": 233261,
+      "sha256": "798c3bc3990e720df0798045acf4a69ae68895a6d2253145890a1348ff5cc625"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/parting-off-iso.png",
+      "bytes": 247249,
+      "sha256": "7cea74052d5c761cf03e5b32713827de5ae748fdf58ffacefe81010f5c809a59"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/parting-off-side.png",
+      "bytes": 222626,
+      "sha256": "afb423103e9ff4932ff7fa1bd61d469c9aef602ca9451ed5a68bf3c38eeb5586"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/parting-off-station.png",
+      "bytes": 329128,
+      "sha256": "2109fc897153867f487da5e854156f53ae181a78ba7e63989677c000e98d460b"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/parting-off-top.png",
+      "bytes": 259804,
+      "sha256": "61e32e429030a39d0ec9771d09dc492b32dde7ecaf610aec6ce44d6479d5ffa4"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/preservation.json",
+      "bytes": 159,
+      "sha256": "528a0a09d5bda66ef342d2c63f2ee40ff92a85fc831c79a53bde46910ae36f7d"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/reference-provenance.json",
+      "bytes": 635,
+      "sha256": "2db5c2de4bee103bf2a23a194c3f862f718b6fe4e024aea3e6ab9d5ffcb75539"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/self-intersections.json",
+      "bytes": 3114,
+      "sha256": "175e42c77250d33d4396e678286518c80d8fcb463700cede1d7af1444a10251d"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/seven-tools-overview.jpg",
+      "bytes": 222749,
+      "sha256": "d0418eabe589602161766f2c6da955fca0d74a004cc68ce2fa43429a2d8cc163"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/solid-carbide-endmill-close.png",
+      "bytes": 310558,
+      "sha256": "892c6bc97b092d0f042d12f4566282eaf3e682ae122b014480a96bde7b6c3526"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/solid-carbide-endmill-four-views.jpg",
+      "bytes": 109432,
+      "sha256": "6983cb0228236bcb27d47db55c34628ad2b3981b34c041a4b6a576803ba90396"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/solid-carbide-endmill-front.png",
+      "bytes": 247723,
+      "sha256": "1e085a50bd1e49b9b57aec9b952c49e3fd19d4566578ae0f460d45b970f9a2db"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/solid-carbide-endmill-iso.png",
+      "bytes": 283837,
+      "sha256": "e7c8454a831ad025018a1016261b909722cf8fe8822ca19a92695a95f4f2d1b8"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/solid-carbide-endmill-side.png",
+      "bytes": 263190,
+      "sha256": "44b803afedff07156b00dd9381b3b8c1b8608ab09337c20ce080150b77c9c7f0"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/solid-carbide-endmill-station.png",
+      "bytes": 338654,
+      "sha256": "a35b4d7d5cc36ed8acb62c14902b0b6d703740521f913b259fcd4acae8b093ad"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/solid-carbide-endmill-top.png",
+      "bytes": 305616,
+      "sha256": "624973326da1a4a6d4ca9291274f4966475a397018ec41ffe3b1241d6a4c99d5"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/twist-drill-close.png",
+      "bytes": 291609,
+      "sha256": "96d817fc7b0fd8a76b4322f41d9613f7e43e89c571187967269af11f66a293fb"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/twist-drill-four-views.jpg",
+      "bytes": 95083,
+      "sha256": "da870190070dad30831b47d66dfce5c2dcff2656dce097fbcd1f14ea24c5d56b"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/twist-drill-front.png",
+      "bytes": 238394,
+      "sha256": "d88a7ea36ce5b6797efb8ef2c5354c66f0a70727ec0ba40b59d77f4fe423f91b"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/twist-drill-iso.png",
+      "bytes": 264493,
+      "sha256": "b7f8968aac23e63a02d0433154f370b4117e40f22e7baec07637a7fb01f012b3"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/twist-drill-side.png",
+      "bytes": 248993,
+      "sha256": "d377df174d46830e8688be4d88e692be3df7fc29b36cb1de83e2b0c1bf8aee59"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/twist-drill-station.png",
+      "bytes": 333969,
+      "sha256": "e7e48009827d0b6e27374522c58bc373c3fa09e2934def9986d0b522fba65001"
+    },
+    {
+      "path": "tool-assets/s205-seven/reports/twist-drill-top.png",
+      "bytes": 285279,
+      "sha256": "0e5de644d9614fb1b577021e640492bd4f8c89c28f7d1ab8ef4f2b8cdc48294b"
+    },
+    {
+      "path": "tool-assets/s205-seven/sources/center-drill.blend",
+      "bytes": 896444,
+      "sha256": "05127fa9625c39aa9fe175f9b7fcc09552b1a85b084cb4492c3de68da61e1c22"
+    },
+    {
+      "path": "tool-assets/s205-seven/sources/external-grooving.blend",
+      "bytes": 641168,
+      "sha256": "2067ab2d31a6b589316f46a84966c0e07bcb1b977e0c4db33e2dfe1a5b07695b"
+    },
+    {
+      "path": "tool-assets/s205-seven/sources/external-threading.blend",
+      "bytes": 774164,
+      "sha256": "3819f11bd36ee9335364427896dafa3c25b2aa94d64e3eded1a1d0d0d5a60f84"
+    },
+    {
+      "path": "tool-assets/s205-seven/sources/generate_tools.py",
+      "bytes": 19573,
+      "sha256": "49f5d345c6827ea78298f4559c4f4776da998124327ea187339d7bab3f74d188"
+    },
+    {
+      "path": "tool-assets/s205-seven/sources/internal-boring.blend",
+      "bytes": 943040,
+      "sha256": "e239bf0a72f4cca0bb3695ca30a1993f29e078b3ae059ad32ebd06a3c7ff4973"
+    },
+    {
+      "path": "tool-assets/s205-seven/sources/parting-off.blend",
+      "bytes": 706600,
+      "sha256": "fa550f2e50cf2e89d15b0c81026f70e6f0f87b34ad59fd61553f5136df0024c1"
+    },
+    {
+      "path": "tool-assets/s205-seven/sources/solid-carbide-endmill.blend",
+      "bytes": 1130428,
+      "sha256": "52fcfaf4a922d3afcd63273b70b3be9c7d884b350aa63c1c176190ee6de47c99"
+    },
+    {
+      "path": "tool-assets/s205-seven/sources/twist-drill.blend",
+      "bytes": 998844,
+      "sha256": "5c00d8c4e0b1a044e510ce3471ac725892ccd8f171718d50162d8e9668ec6f78"
+    },
+    {
+      "path": "tool-assets/s205-seven/tests/build_delivery.py",
+      "bytes": 7994,
+      "sha256": "67939e3f5d2a2eed069834e6954a50b484fd4fcaaaa3ff44dea2c921f3a76b2c"
+    },
+    {
+      "path": "tool-assets/s205-seven/tests/check_assembly.py",
+      "bytes": 1777,
+      "sha256": "002fe9cfdb2f68c9a391eb47b7d4b31ead1f32f52abff06dd448e2ac80a51a30"
+    },
+    {
+      "path": "tool-assets/s205-seven/tests/check_blender.py",
+      "bytes": 925,
+      "sha256": "bdff6f4eb6c5034d0139cc0ba81ec815d2c385596a330d55d9857a4246837a0e"
+    },
+    {
+      "path": "tool-assets/s205-seven/tests/verify_browser.cjs",
+      "bytes": 7660,
+      "sha256": "3d94a44bf935a374e043bd565b392c0f2e1f843b5ec665bdd108701759376bf3"
+    },
+    {
+      "path": "tool-assets/s205-seven/tests/verify_glb.py",
+      "bytes": 5448,
+      "sha256": "4080f2db0cacb7683bf621ed808d95ae026664c63eaab588539394b9a19f66fe"
+    }
+  ]
+}

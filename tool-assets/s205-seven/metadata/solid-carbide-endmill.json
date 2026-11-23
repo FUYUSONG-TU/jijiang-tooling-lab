@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "3.0",
+  "modelVersion": "1.0.0",
+  "toolId": "JJ-SOLID-CARBIDE-ENDMILL",
+  "toolName": "整体硬质合金立铣刀",
+  "toolType": "solid-carbide-endmill",
+  "supportedOperations": [
+    "driven-end-milling",
+    "driven-side-milling"
+  ],
+  "geometryUnits": {
+    "metadata": "mm/Z-up",
+    "glb": "m/Y-up",
+    "loaderOutput": "mm/Z-up"
+  },
+  "mountingOrigin": [
+    0,
+    0,
+    0
+  ],
+  "cuttingReferencePoint": [
+    2.9465417861938477,
+    -45.0,
+    0.5638183355331421
+  ],
+  "cuttingReferenceDefinition": "实际网格上选定的前刃/切削角基准，不等于模型中心；圆柱工具轴线另行记录",
+  "localCoordinateAxes": {
+    "handedness": "right",
+    "X": "横向宽度",
+    "Y": "朝向安装后端，切削端在负Y",
+    "Z": "刀片顶面/径向截面竖向"
+  },
+  "axisDirection": [
+    0,
+    -1,
+    0
+  ],
+  "axisOrigin": [
+    0,
+    0,
+    0
+  ],
+  "axialGaugePoint": [
+    0,
+    -45.0,
+    0
+  ],
+  "boundingBox": {
+    "min": [
+      -3.0,
+      -45.0,
+      -3.000000476837158
+    ],
+    "max": [
+      3.0,
+      0.0,
+      3.000000476837158
+    ],
+    "size": [
+      6.0,
+      45.0,
+      6.000000953674316
+    ]
+  },
+  "overallDimensions": {
+    "widthX": 6.0,
+    "lengthY": 45.0,
+    "heightZ": 6.000000953674316
+  },
+  "parameters": {
+    "diameter": 6,
+    "flutes": 4,
+    "helixAngle": 35,
+    "endGeometry": "四刃端部排屑/后隙近似；未认证中心切削能力",
+    "centerCuttingVerified": false
+  },
+  "components": {
+    "EndMill_Solid_Carbide_Shank": {
+      "role": "toolShank",
+      "boundingBox": {
+        "min": [
+          -3.0,
+          -24.0,
+          -3.000000476837158
+        ],
+        "max": [
+          3.0,
+          0.0,
+          3.000000476837158
+        ],
+        "size": [
+          6.0,
+          24.0,
+          6.000000953674316
+        ]
+      }
+    },
+    "EndMill_4_Flutes_End_Gashes": {
+      "role": "cuttingBody",
+      "boundingBox": {
+        "min": [
+          -3.0,
+          -45.0,
+          -3.0
+        ],
+        "max": [
+          3.0,
+          -24.0,
+          3.0
+        ],
+        "size": [
+          6.0,
+          21.0,
+          6.0
+        ]
+      }
+    }
+  },
+  "compatibleStationTypes": [
+    "optional-driven"
+  ],
+  "stationConfigurationVerified": false,
+  "verificationStatus": {
+    "dimensions": "全部为明确教学默认值，不是厂家尺寸或图片透视测量",
+    "structure": "参考可见结构+通用参数化教学重建，隐藏内部与螺纹非精确产品复刻",
+    "manufacturer": null,
+    "nativeWechat": "未原生微信真机测试"
+  },
+  "referenceEvidence": "现有参考图不能确认S205动力头选配；采用通用四刃整体硬质合金形体，仅允许条件动力工位",
+  "sourceFile": "sources/generate_tools.py",
+  "modelPath": "models/solid-carbide-endmill.glb",
+  "selfInspection": {
+    "meshes": {
+      "EndMill_Solid_Carbide_Shank": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 676.5776478465536,
+        "finiteNormals": true,
+        "vertices": 288
+      },
+      "EndMill_4_Flutes_End_Gashes": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 299.78181740471666,
+        "finiteNormals": true,
+        "vertices": 3138
+      }
+    },
+    "holderInsertSurfaceChecks": [],
+    "contactPolicy": "座面、螺丝座及部件端面有意接触不视为错误穿透；非完整CAD实体认证"
+  },
+  "triangleCount": 6844,
+  "meshCount": 2,
+  "drawPrimitiveCount": 3,
+  "materialCount": 2,
+  "textureCount": 0,
+  "mountingInterface": {
+    "type": "round-shank",
+    "squareWidth": null,
+    "shankDiameter": 6,
+    "gripRegionLocalY": [
+      -12,
+      0
+    ]
+  },
+  "bytes": 159708,
+  "sha256": "261c9dc2b0a1308ce33f88f85213749fdbf7d3e85e040df4c5abb1753ec62f97"
+}

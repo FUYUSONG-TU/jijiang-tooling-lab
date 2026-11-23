@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "3.0",
+  "modelVersion": "1.0.0",
+  "toolId": "JJ-CENTER-DRILL",
+  "toolName": "中心钻",
+  "toolType": "center-drill",
+  "supportedOperations": [
+    "centering",
+    "pilot-hole"
+  ],
+  "geometryUnits": {
+    "metadata": "mm/Z-up",
+    "glb": "m/Y-up",
+    "loaderOutput": "mm/Z-up"
+  },
+  "mountingOrigin": [
+    0,
+    0,
+    0
+  ],
+  "cuttingReferencePoint": [
+    0.0,
+    -27.06496238708496,
+    0.0
+  ],
+  "cuttingReferenceDefinition": "实际网格上选定的前刃/切削角基准，不等于模型中心；圆柱工具轴线另行记录",
+  "localCoordinateAxes": {
+    "handedness": "right",
+    "X": "横向宽度",
+    "Y": "朝向安装后端，切削端在负Y",
+    "Z": "刀片顶面/径向截面竖向"
+  },
+  "axisDirection": [
+    0,
+    -1,
+    0
+  ],
+  "axisOrigin": [
+    0,
+    0,
+    0
+  ],
+  "axialGaugePoint": [
+    0,
+    -27.06496238708496,
+    0
+  ],
+  "boundingBox": {
+    "min": [
+      -3.0,
+      -27.06496238708496,
+      -3.000000238418579
+    ],
+    "max": [
+      3.0,
+      0.0,
+      3.000000238418579
+    ],
+    "size": [
+      6.0,
+      27.06496238708496,
+      6.000000476837158
+    ]
+  },
+  "overallDimensions": {
+    "widthX": 6.0,
+    "lengthY": 27.06496238708496,
+    "heightZ": 6.000000476837158
+  },
+  "parameters": {
+    "bodyDiameter": 6,
+    "pilotDiameter": 2,
+    "centeringIncludedAngle": 60,
+    "pilotPointAngle": 118,
+    "flutes": 2,
+    "helixAngle": 12
+  },
+  "components": {
+    "CenterDrill_Shank": {
+      "role": "toolShank",
+      "boundingBox": {
+        "min": [
+          -3.0,
+          -16.0,
+          -3.000000238418579
+        ],
+        "max": [
+          3.0,
+          0.0,
+          3.000000238418579
+        ],
+        "size": [
+          6.0,
+          16.0,
+          6.000000476837158
+        ]
+      }
+    },
+    "CenterDrill_Pilot_And_60deg_Cone": {
+      "role": "cuttingBody",
+      "boundingBox": {
+        "min": [
+          -3.0,
+          -27.06496238708496,
+          -3.0
+        ],
+        "max": [
+          3.0,
+          -16.0,
+          3.0
+        ],
+        "size": [
+          6.0,
+          11.064962387084961,
+          6.0
+        ]
+      }
+    }
+  },
+  "compatibleStationTypes": [
+    "axial-static"
+  ],
+  "stationConfigurationVerified": false,
+  "verificationStatus": {
+    "dimensions": "全部为明确教学默认值，不是厂家尺寸或图片透视测量",
+    "structure": "参考可见结构+通用参数化教学重建，隐藏内部与螺纹非精确产品复刻",
+    "manufacturer": null,
+    "nativeWechat": "未原生微信真机测试"
+  },
+  "referenceEvidence": "第3张图K类轴向钻孔工位；中心钻刃型无特定厂家资料，采用通用组合中心钻教学形体",
+  "sourceFile": "sources/generate_tools.py",
+  "modelPath": "models/center-drill.glb",
+  "selfInspection": {
+    "meshes": {
+      "CenterDrill_Shank": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 451.0283926017326,
+        "finiteNormals": true,
+        "vertices": 288
+      },
+      "CenterDrill_Pilot_And_60deg_Cone": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 93.8188628536108,
+        "finiteNormals": true,
+        "vertices": 2162
+      }
+    },
+    "holderInsertSurfaceChecks": [],
+    "contactPolicy": "座面、螺丝座及部件端面有意接触不视为错误穿透；非完整CAD实体认证"
+  },
+  "triangleCount": 4892,
+  "meshCount": 2,
+  "drawPrimitiveCount": 3,
+  "materialCount": 2,
+  "textureCount": 0,
+  "mountingInterface": {
+    "type": "round-shank",
+    "squareWidth": null,
+    "shankDiameter": 6,
+    "gripRegionLocalY": [
+      -12,
+      0
+    ]
+  },
+  "bytes": 117880,
+  "sha256": "3e6c3b87e5a64acfde7cebbc26b07c3de1044710e803f33bc8e626d759ceda0e"
+}

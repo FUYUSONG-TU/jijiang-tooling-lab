@@ -1,0 +1,136 @@
+{
+  "center-drill": {
+    "CenterDrill_Shank": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "CenterDrill_Pilot_And_60deg_Cone": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    }
+  },
+  "external-grooving": {
+    "Groove_Holder": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Groove_Seat": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Groove_Carbide_Insert": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Groove_Top_Clamp": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Groove_Clamp_Screw_Shaft": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Groove_Clamp_Screw_Head": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    }
+  },
+  "external-threading": {
+    "Thread_Holder": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Thread_Seat": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Thread_60deg_Insert": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Thread_Insert_Screw_Shaft": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Thread_Insert_Screw_Head": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    }
+  },
+  "internal-boring": {
+    "BoringBar_Round_Shank": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "BoringBar_Reduced_Neck": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "BoringBar_Carbide_Insert": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "BoringBar_Seat": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "BoringBar_Insert_Screw_Shaft": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "BoringBar_Insert_Screw_Head": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    }
+  },
+  "parting-off": {
+    "Parting_Holder": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Parting_Blade": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Parting_Carbide_Insert": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Parting_Side_54_Shaft": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Parting_Side_54_Head": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Parting_Side_59_Shaft": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "Parting_Side_59_Head": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    }
+  },
+  "solid-carbide-endmill": {
+    "EndMill_Solid_Carbide_Shank": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "EndMill_4_Flutes_End_Gashes": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    }
+  },
+  "twist-drill": {
+    "TwistDrill_Shank": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    },
+    "TwistDrill_2_Helical_Flutes": {
+      "selfIntersectionCandidates": 0,
+      "examples": []
+    }
+  }
+}

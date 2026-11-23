@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "3.0",
+  "modelVersion": "1.0.0",
+  "toolCount": 7,
+  "tools": [
+    {
+      "toolId": "JJ-EXTERNAL-GROOVING",
+      "toolType": "external-grooving",
+      "toolName": "外圆切槽刀",
+      "metadataPath": "metadata/external-grooving.json",
+      "modelPath": "models/external-grooving.glb"
+    },
+    {
+      "toolId": "JJ-PARTING-OFF",
+      "toolType": "parting-off",
+      "toolName": "切断刀",
+      "metadataPath": "metadata/parting-off.json",
+      "modelPath": "models/parting-off.glb"
+    },
+    {
+      "toolId": "JJ-EXTERNAL-THREADING",
+      "toolType": "external-threading",
+      "toolName": "外螺纹刀",
+      "metadataPath": "metadata/external-threading.json",
+      "modelPath": "models/external-threading.glb"
+    },
+    {
+      "toolId": "JJ-CENTER-DRILL",
+      "toolType": "center-drill",
+      "toolName": "中心钻",
+      "metadataPath": "metadata/center-drill.json",
+      "modelPath": "models/center-drill.glb"
+    },
+    {
+      "toolId": "JJ-TWIST-DRILL",
+      "toolType": "twist-drill",
+      "toolName": "麻花钻",
+      "metadataPath": "metadata/twist-drill.json",
+      "modelPath": "models/twist-drill.glb"
+    },
+    {
+      "toolId": "JJ-INTERNAL-BORING",
+      "toolType": "internal-boring",
+      "toolName": "内孔镗杆",
+      "metadataPath": "metadata/internal-boring.json",
+      "modelPath": "models/internal-boring.glb"
+    },
+    {
+      "toolId": "JJ-SOLID-CARBIDE-ENDMILL",
+      "toolType": "solid-carbide-endmill",
+      "toolName": "整体硬质合金立铣刀",
+      "metadataPath": "metadata/solid-carbide-endmill.json",
+      "modelPath": "models/solid-carbide-endmill.glb"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "3.0",
+  "modelVersion": "1.0.0",
+  "toolId": "JJ-INTERNAL-BORING",
+  "toolName": "内孔镗杆",
+  "toolType": "internal-boring",
+  "supportedOperations": [
+    "internal-boring",
+    "internal-facing"
+  ],
+  "geometryUnits": {
+    "metadata": "mm/Z-up",
+    "glb": "m/Y-up",
+    "loaderOutput": "mm/Z-up"
+  },
+  "mountingOrigin": [
+    0,
+    0,
+    0
+  ],
+  "cuttingReferencePoint": [
+    3.6442019939422607,
+    -67.61109161376953,
+    2.680000066757202
+  ],
+  "cuttingReferenceDefinition": "实际网格上选定的前刃/切削角基准，不等于模型中心；圆柱工具轴线另行记录",
+  "localCoordinateAxes": {
+    "handedness": "right",
+    "X": "横向宽度",
+    "Y": "朝向安装后端，切削端在负Y",
+    "Z": "刀片顶面/径向截面竖向"
+  },
+  "axisDirection": [
+    0,
+    -1,
+    0
+  ],
+  "axisOrigin": [
+    0,
+    0,
+    0
+  ],
+  "axialGaugePoint": [
+    0,
+    -67.6263427734375,
+    0
+  ],
+  "boundingBox": {
+    "min": [
+      -4.0,
+      -67.6263427734375,
+      -4.000000953674316
+    ],
+    "max": [
+      4.0,
+      0.0,
+      4.000000953674316
+    ],
+    "size": [
+      8.0,
+      67.6263427734375,
+      8.000001907348633
+    ]
+  },
+  "overallDimensions": {
+    "widthX": 8.0,
+    "lengthY": 67.6263427734375,
+    "heightZ": 8.000001907348633
+  },
+  "parameters": {
+    "shankDiameter": 8,
+    "neckDiameter": 5.6,
+    "insert": "小型可转位刀片，非MTR型号复刻",
+    "radialCuttingOffset": "以元数据实际切削参考点为准"
+  },
+  "components": {
+    "BoringBar_Round_Shank": {
+      "role": "holder",
+      "boundingBox": {
+        "min": [
+          -4.0,
+          -43.0,
+          -4.000000953674316
+        ],
+        "max": [
+          4.0,
+          0.0,
+          4.000000953674316
+        ],
+        "size": [
+          8.0,
+          43.0,
+          8.000001907348633
+        ]
+      }
+    },
+    "BoringBar_Reduced_Neck": {
+      "role": "holder",
+      "boundingBox": {
+        "min": [
+          -2.799999952316284,
+          -65.0,
+          -2.8000004291534424
+        ],
+        "max": [
+          2.799999952316284,
+          -43.0,
+          2.8000004291534424
+        ],
+        "size": [
+          5.599999904632568,
+          22.0,
+          5.600000858306885
+        ]
+      }
+    },
+    "BoringBar_Carbide_Insert": {
+      "role": "insert",
+      "boundingBox": {
+        "min": [
+          -1.4989550113677979,
+          -67.6263427734375,
+          1.2999999523162842
+        ],
+        "max": [
+          3.6909141540527344,
+          -61.871498107910156,
+          2.700000047683716
+        ],
+        "size": [
+          5.189869165420532,
+          5.754844665527344,
+          1.4000000953674316
+        ]
+      }
+    },
+    "BoringBar_Seat": {
+      "role": "seat",
+      "boundingBox": {
+        "min": [
+          -1.5,
+          -65.0,
+          0.8500000238418579
+        ],
+        "max": [
+          2.799999952316284,
+          -62.0,
+          1.2999999523162842
+        ],
+        "size": [
+          4.299999952316284,
+          3.0,
+          0.44999992847442627
+        ]
+      }
+    },
+    "BoringBar_Insert_Screw_Shaft": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          0.8700000047683716,
+          -64.62999725341797,
+          -1.0
+        ],
+        "max": [
+          2.130000114440918,
+          -63.369998931884766,
+          2.700000047683716
+        ],
+        "size": [
+          1.2600001096725464,
+          1.2599983215332031,
+          3.700000047683716
+        ]
+      }
+    },
+    "BoringBar_Insert_Screw_Head": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          0.550000011920929,
+          -64.94999694824219,
+          2.700000047683716
+        ],
+        "max": [
+          2.450000047683716,
+          -63.04999923706055,
+          3.5844826698303223
+        ],
+        "size": [
+          1.9000000357627869,
+          1.8999977111816406,
+          0.8844826221466064
+        ]
+      }
+    }
+  },
+  "compatibleStationTypes": [
+    "axial-boring"
+  ],
+  "stationConfigurationVerified": false,
+  "verificationStatus": {
+    "dimensions": "全部为明确教学默认值，不是厂家尺寸或图片透视测量",
+    "structure": "参考可见结构+通用参数化教学重建，隐藏内部与螺纹非精确产品复刻",
+    "manufacturer": null,
+    "nativeWechat": "未原生微信真机测试"
+  },
+  "referenceEvidence": "第1张内孔刀具图用于圆柄/缩颈/前刃结构参考，第3张F类内径加工；可转位座体为教学重建",
+  "sourceFile": "sources/generate_tools.py",
+  "modelPath": "models/internal-boring.glb",
+  "selfInspection": {
+    "meshes": {
+      "BoringBar_Round_Shank": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 2155.1023127316585,
+        "finiteNormals": true,
+        "vertices": 288
+      },
+      "BoringBar_Reduced_Neck": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 499.3387182662457,
+        "finiteNormals": true,
+        "vertices": 203
+      },
+      "BoringBar_Carbide_Insert": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 18.973088237631988,
+        "finiteNormals": true,
+        "vertices": 260
+      },
+      "BoringBar_Seat": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 5.074220405011258,
+        "finiteNormals": true,
+        "vertices": 105
+      },
+      "BoringBar_Insert_Screw_Shaft": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 4.5839370068967265,
+        "finiteNormals": true,
+        "vertices": 64
+      },
+      "BoringBar_Insert_Screw_Head": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 2.0548931569013025,
+        "finiteNormals": true,
+        "vertices": 242
+      }
+    },
+    "holderInsertSurfaceChecks": [
+      {
+        "a": "BoringBar_Carbide_Insert",
+        "b": "BoringBar_Round_Shank",
+        "surfaceOverlaps": 0
+      },
+      {
+        "a": "BoringBar_Carbide_Insert",
+        "b": "BoringBar_Reduced_Neck",
+        "surfaceOverlaps": 0
+      }
+    ],
+    "contactPolicy": "座面、螺丝座及部件端面有意接触不视为错误穿透；非完整CAD实体认证"
+  },
+  "triangleCount": 2308,
+  "meshCount": 6,
+  "drawPrimitiveCount": 6,
+  "materialCount": 3,
+  "textureCount": 0,
+  "mountingInterface": {
+    "type": "round-shank",
+    "squareWidth": null,
+    "shankDiameter": 8,
+    "gripRegionLocalY": [
+      -12,
+      0
+    ]
+  },
+  "bytes": 114912,
+  "sha256": "ae23e6d665306eb102c303f14b122ae82655a575080c06d476fc62d8be7da0c0"
+}

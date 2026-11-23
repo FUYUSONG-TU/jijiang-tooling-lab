@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "3.0",
+  "modelVersion": "1.0.0",
+  "toolId": "JJ-EXTERNAL-THREADING",
+  "toolName": "外螺纹刀",
+  "toolType": "external-threading",
+  "supportedOperations": [
+    "external-threading-60deg-partial-profile"
+  ],
+  "geometryUnits": {
+    "metadata": "mm/Z-up",
+    "glb": "m/Y-up",
+    "loaderOutput": "mm/Z-up"
+  },
+  "mountingOrigin": [
+    0,
+    0,
+    0
+  ],
+  "cuttingReferencePoint": [
+    7.347880950074885e-18,
+    -75.8800048828125,
+    5.574999809265137
+  ],
+  "cuttingReferenceDefinition": "实际网格上选定的前刃/切削角基准，不等于模型中心；圆柱工具轴线另行记录",
+  "localCoordinateAxes": {
+    "handedness": "right",
+    "X": "横向宽度",
+    "Y": "朝向安装后端，切削端在负Y",
+    "Z": "刀片顶面/径向截面竖向"
+  },
+  "axisDirection": [
+    0,
+    -1,
+    0
+  ],
+  "axisOrigin": [
+    0,
+    0,
+    0
+  ],
+  "axialGaugePoint": [
+    0,
+    -75.8800048828125,
+    0
+  ],
+  "boundingBox": {
+    "min": [
+      -5.0,
+      -75.8800048828125,
+      -5.0
+    ],
+    "max": [
+      5.0,
+      0.0,
+      6.903448104858398
+    ],
+    "size": [
+      10.0,
+      75.8800048828125,
+      11.903448104858398
+    ]
+  },
+  "overallDimensions": {
+    "widthX": 10.0,
+    "lengthY": 75.8800048828125,
+    "heightZ": 11.903448104858398
+  },
+  "parameters": {
+    "insertIncludedAngle": 60,
+    "noseRadius": 0.12,
+    "pitch": null,
+    "profile": "60°局部牙型；未指定螺距/全牙型"
+  },
+  "components": {
+    "Thread_Holder": {
+      "role": "holder",
+      "boundingBox": {
+        "min": [
+          -5.0,
+          -74.72930145263672,
+          -5.0
+        ],
+        "max": [
+          5.0,
+          0.0,
+          5.0
+        ],
+        "size": [
+          10.0,
+          74.72930145263672,
+          10.0
+        ]
+      }
+    },
+    "Thread_Seat": {
+      "role": "seat",
+      "boundingBox": {
+        "min": [
+          -3.6867947578430176,
+          -75.6240005493164,
+          2.299999952316284
+        ],
+        "max": [
+          3.6867947578430176,
+          -69.21149444580078,
+          2.9000000953674316
+        ],
+        "size": [
+          7.373589515686035,
+          6.412506103515625,
+          0.6000001430511475
+        ]
+      }
+    },
+    "Thread_60deg_Insert": {
+      "role": "insert",
+      "boundingBox": {
+        "min": [
+          -3.912153720855713,
+          -75.8800048828125,
+          2.9000000953674316
+        ],
+        "max": [
+          3.912153720855713,
+          -69.0718002319336,
+          5.599999904632568
+        ],
+        "size": [
+          7.824307441711426,
+          6.808204650878906,
+          2.6999998092651367
+        ]
+      }
+    },
+    "Thread_Insert_Screw_Shaft": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          -0.9300000071525574,
+          -72.2300033569336,
+          0.5
+        ],
+        "max": [
+          0.9300000071525574,
+          -70.37000274658203,
+          5.599999904632568
+        ],
+        "size": [
+          1.8600000143051147,
+          1.8600006103515625,
+          5.099999904632568
+        ]
+      }
+    },
+    "Thread_Insert_Screw_Head": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          -1.399999976158142,
+          -72.69999694824219,
+          5.599999904632568
+        ],
+        "max": [
+          1.399999976158142,
+          -69.9000015258789,
+          6.903448104858398
+        ],
+        "size": [
+          2.799999952316284,
+          2.7999954223632812,
+          1.30344820022583
+        ]
+      }
+    }
+  },
+  "compatibleStationTypes": [
+    "gang-od"
+  ],
+  "stationConfigurationVerified": false,
+  "verificationStatus": {
+    "dimensions": "全部为明确教学默认值，不是厂家尺寸或图片透视测量",
+    "structure": "参考可见结构+通用参数化教学重建，隐藏内部与螺纹非精确产品复刻",
+    "manufacturer": null,
+    "nativeWechat": "未原生微信真机测试"
+  },
+  "referenceEvidence": "第3张图螺纹J类工位和第5张图三角刀片构造；60°牙型为通用教学选择",
+  "sourceFile": "sources/generate_tools.py",
+  "modelPath": "models/external-threading.glb",
+  "selfInspection": {
+    "meshes": {
+      "Thread_Holder": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 7079.682441546677,
+        "finiteNormals": true,
+        "vertices": 277
+      },
+      "Thread_Seat": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 12.646723345655628,
+        "finiteNormals": true,
+        "vertices": 150
+      },
+      "Thread_60deg_Insert": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 62.19648137950043,
+        "finiteNormals": true,
+        "vertices": 408
+      },
+      "Thread_Insert_Screw_Shaft": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 13.768669442798304,
+        "finiteNormals": true,
+        "vertices": 64
+      },
+      "Thread_Insert_Screw_Head": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 6.576620518248674,
+        "finiteNormals": true,
+        "vertices": 242
+      }
+    },
+    "holderInsertSurfaceChecks": [
+      {
+        "a": "Thread_60deg_Insert",
+        "b": "Thread_Holder",
+        "surfaceOverlaps": 0
+      }
+    ],
+    "contactPolicy": "座面、螺丝座及部件端面有意接触不视为错误穿透；非完整CAD实体认证"
+  },
+  "triangleCount": 2270,
+  "meshCount": 5,
+  "drawPrimitiveCount": 5,
+  "materialCount": 3,
+  "textureCount": 0,
+  "mountingInterface": {
+    "type": "square-shank",
+    "squareWidth": 10,
+    "shankDiameter": null,
+    "gripRegionLocalY": [
+      -12,
+      0
+    ]
+  },
+  "bytes": 118096,
+  "sha256": "98df0695a0d01cb0e1a2693cfcd776890115b012c260a9792ec90fb21c6913ad"
+}

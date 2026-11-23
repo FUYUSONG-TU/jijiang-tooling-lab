@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "3.0",
+  "modelVersion": "1.0.0",
+  "toolId": "JJ-PARTING-OFF",
+  "toolName": "切断刀",
+  "toolType": "parting-off",
+  "supportedOperations": [
+    "parting-off"
+  ],
+  "geometryUnits": {
+    "metadata": "mm/Z-up",
+    "glb": "m/Y-up",
+    "loaderOutput": "mm/Z-up"
+  },
+  "mountingOrigin": [
+    0,
+    0,
+    0
+  ],
+  "cuttingReferencePoint": [
+    0.0,
+    -84.99172973632812,
+    5.49279260635376
+  ],
+  "cuttingReferenceDefinition": "实际网格上选定的前刃/切削角基准，不等于模型中心；圆柱工具轴线另行记录",
+  "localCoordinateAxes": {
+    "handedness": "right",
+    "X": "横向宽度",
+    "Y": "朝向安装后端，切削端在负Y",
+    "Z": "刀片顶面/径向截面竖向"
+  },
+  "axisDirection": [
+    0,
+    -1,
+    0
+  ],
+  "axisOrigin": [
+    0,
+    0,
+    0
+  ],
+  "axialGaugePoint": [
+    0,
+    -84.99653625488281,
+    0
+  ],
+  "boundingBox": {
+    "min": [
+      -5.0,
+      -84.99653625488281,
+      -5.0
+    ],
+    "max": [
+      6.163793087005615,
+      0.0,
+      5.5
+    ],
+    "size": [
+      11.163793087005615,
+      84.99653625488281,
+      10.5
+    ]
+  },
+  "overallDimensions": {
+    "widthX": 11.163793087005615,
+    "lengthY": 84.99653625488281,
+    "heightZ": 10.5
+  },
+  "parameters": {
+    "bladeThickness": 1.6,
+    "cuttingWidth": 1.5,
+    "insertThickness": 2.5,
+    "clamp": "侧压紧固，螺纹未建模"
+  },
+  "components": {
+    "Parting_Holder": {
+      "role": "holder",
+      "boundingBox": {
+        "min": [
+          -5.0,
+          -60.0,
+          -5.0
+        ],
+        "max": [
+          5.0,
+          0.0,
+          5.0
+        ],
+        "size": [
+          10.0,
+          60.0,
+          10.0
+        ]
+      }
+    },
+    "Parting_Blade": {
+      "role": "bladeCarrier",
+      "boundingBox": {
+        "min": [
+          -0.800000011920929,
+          -82.97368621826172,
+          -5.0
+        ],
+        "max": [
+          0.800000011920929,
+          -54.0,
+          5.0
+        ],
+        "size": [
+          1.600000023841858,
+          28.97368621826172,
+          10.0
+        ]
+      }
+    },
+    "Parting_Carbide_Insert": {
+      "role": "insert",
+      "boundingBox": {
+        "min": [
+          -0.7485067844390869,
+          -84.99653625488281,
+          3.0
+        ],
+        "max": [
+          0.7485067248344421,
+          -79.0,
+          5.5
+        ],
+        "size": [
+          1.497013509273529,
+          5.9965362548828125,
+          2.5
+        ]
+      }
+    },
+    "Parting_Side_54_Shaft": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          0.8000001907348633,
+          -54.849998474121094,
+          -0.8500001430511475
+        ],
+        "max": [
+          5.0,
+          -53.150001525878906,
+          0.8500001430511475
+        ],
+        "size": [
+          4.199999809265137,
+          1.6999969482421875,
+          1.700000286102295
+        ]
+      }
+    },
+    "Parting_Side_54_Head": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          5.0,
+          -55.25,
+          -1.25
+        ],
+        "max": [
+          6.163793087005615,
+          -52.75,
+          1.25
+        ],
+        "size": [
+          1.1637930870056152,
+          2.5,
+          2.5
+        ]
+      }
+    },
+    "Parting_Side_59_Shaft": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          0.8000001907348633,
+          -59.849998474121094,
+          -0.8500001430511475
+        ],
+        "max": [
+          5.0,
+          -58.150001525878906,
+          0.8500001430511475
+        ],
+        "size": [
+          4.199999809265137,
+          1.6999969482421875,
+          1.700000286102295
+        ]
+      }
+    },
+    "Parting_Side_59_Head": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          5.0,
+          -60.25,
+          -1.25
+        ],
+        "max": [
+          6.163793087005615,
+          -57.75,
+          1.25
+        ],
+        "size": [
+          1.1637930870056152,
+          2.5,
+          2.5
+        ]
+      }
+    }
+  },
+  "compatibleStationTypes": [
+    "gang-od"
+  ],
+  "stationConfigurationVerified": false,
+  "verificationStatus": {
+    "dimensions": "全部为明确教学默认值，不是厂家尺寸或图片透视测量",
+    "structure": "参考可见结构+通用参数化教学重建，隐藏内部与螺纹非精确产品复刻",
+    "manufacturer": null,
+    "nativeWechat": "未原生微信真机测试"
+  },
+  "referenceEvidence": "第3张图切断H类工位；切断刀板与压紧细节为通用教学结构",
+  "sourceFile": "sources/generate_tools.py",
+  "modelPath": "models/parting-off.glb",
+  "selfInspection": {
+    "meshes": {
+      "Parting_Holder": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 5776.830801700798,
+        "finiteNormals": true,
+        "vertices": 313
+      },
+      "Parting_Blade": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 434.6904962378332,
+        "finiteNormals": true,
+        "vertices": 56
+      },
+      "Parting_Carbide_Insert": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 18.9176133200436,
+        "finiteNormals": true,
+        "vertices": 82
+      },
+      "Parting_Side_54_Shaft": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 9.472020958101945,
+        "finiteNormals": true,
+        "vertices": 64
+      },
+      "Parting_Side_54_Head": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 4.681110354919268,
+        "finiteNormals": true,
+        "vertices": 242
+      },
+      "Parting_Side_59_Shaft": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 9.472020958101963,
+        "finiteNormals": true,
+        "vertices": 64
+      },
+      "Parting_Side_59_Head": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 4.6811103549192685,
+        "finiteNormals": true,
+        "vertices": 242
+      }
+    },
+    "holderInsertSurfaceChecks": [
+      {
+        "a": "Parting_Carbide_Insert",
+        "b": "Parting_Holder",
+        "surfaceOverlaps": 0
+      }
+    ],
+    "contactPolicy": "座面、螺丝座及部件端面有意接触不视为错误穿透；非完整CAD实体认证"
+  },
+  "triangleCount": 2106,
+  "meshCount": 7,
+  "drawPrimitiveCount": 7,
+  "materialCount": 3,
+  "textureCount": 0,
+  "mountingInterface": {
+    "type": "square-shank",
+    "squareWidth": 10,
+    "shankDiameter": null,
+    "gripRegionLocalY": [
+      -12,
+      0
+    ]
+  },
+  "bytes": 107300,
+  "sha256": "8981078e26487e98d653f8329d0ca8a4b26541366dc0dabbd7eb8a2b51c36045"
+}

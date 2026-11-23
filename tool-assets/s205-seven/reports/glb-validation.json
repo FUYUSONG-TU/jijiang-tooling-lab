@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "loadedAssetCount": 7,
+  "totalGlbBytes": 884580,
+  "results": [
+    {
+      "toolType": "external-grooving",
+      "bytes": 119628,
+      "triangles": 2182,
+      "parts": 6,
+      "drawPrimitives": 6,
+      "materials": 3,
+      "textures": 0,
+      "bboxMaxErrorMm": 3.5762786865234375e-06,
+      "referenceSurfaceErrorMm": 2.1947714550790668e-06,
+      "mountSurfaceErrorMm": 0.0,
+      "degenerateTriangles": 0
+    },
+    {
+      "toolType": "parting-off",
+      "bytes": 107300,
+      "triangles": 2106,
+      "parts": 7,
+      "drawPrimitives": 7,
+      "materials": 3,
+      "textures": 0,
+      "bboxMaxErrorMm": 7.569789886474609e-06,
+      "referenceSurfaceErrorMm": 6.986249866119769e-07,
+      "mountSurfaceErrorMm": 0.0,
+      "degenerateTriangles": 0
+    },
+    {
+      "toolType": "external-threading",
+      "bytes": 118096,
+      "triangles": 2270,
+      "parts": 5,
+      "drawPrimitives": 5,
+      "materials": 3,
+      "textures": 0,
+      "bboxMaxErrorMm": 1.0728836059570312e-06,
+      "referenceSurfaceErrorMm": 9.95708500358652e-07,
+      "mountSurfaceErrorMm": 0.0,
+      "degenerateTriangles": 0
+    },
+    {
+      "toolType": "center-drill",
+      "bytes": 117880,
+      "triangles": 4892,
+      "parts": 2,
+      "drawPrimitives": 3,
+      "materials": 2,
+      "textures": 0,
+      "bboxMaxErrorMm": 1.7881393432617188e-06,
+      "referenceSurfaceErrorMm": 9.375111592287696e-07,
+      "mountSurfaceErrorMm": 0.0,
+      "degenerateTriangles": 0
+    },
+    {
+      "toolType": "twist-drill",
+      "bytes": 147056,
+      "triangles": 6428,
+      "parts": 2,
+      "drawPrimitives": 3,
+      "materials": 2,
+      "textures": 0,
+      "bboxMaxErrorMm": 2.9802322387695312e-06,
+      "referenceSurfaceErrorMm": 1.5625153507624455e-06,
+      "mountSurfaceErrorMm": 1.1102230246251565e-16,
+      "degenerateTriangles": 0
+    },
+    {
+      "toolType": "internal-boring",
+      "bytes": 114912,
+      "triangles": 2308,
+      "parts": 6,
+      "drawPrimitives": 6,
+      "materials": 3,
+      "textures": 0,
+      "bboxMaxErrorMm": 6.854534149169922e-06,
+      "referenceSurfaceErrorMm": 4.861283852888231e-06,
+      "mountSurfaceErrorMm": 2.220446049250313e-16,
+      "degenerateTriangles": 0
+    },
+    {
+      "toolType": "solid-carbide-endmill",
+      "bytes": 159708,
+      "triangles": 6844,
+      "parts": 2,
+      "drawPrimitives": 3,
+      "materials": 2,
+      "textures": 0,
+      "bboxMaxErrorMm": 1.7881393432617188e-06,
+      "referenceSurfaceErrorMm": 2.6040096664819423e-08,
+      "mountSurfaceErrorMm": 0.0,
+      "degenerateTriangles": 0
+    }
+  ],
+  "selfIntersectionCandidates": 0,
+  "limits": "数字几何检查，不代表厂家尺寸认证或所有夹紧接触/实体体积安全"
+}

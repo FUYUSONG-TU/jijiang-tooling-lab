@@ -1,0 +1,17 @@
+[
+  {
+    "file": "references/tooling/1-照片-1.jpg",
+    "sha256": "4d0e86fc29159405a305a0d88364926ed096b84eeef3b76fb00a5488caa40737",
+    "redistributionPermission": "未确认，本新增包不含原图"
+  },
+  {
+    "file": "references/tooling/3-照片-3.jpg",
+    "sha256": "cb6e32823d2141a12559f4fb8463b4072b53e4734fc899230cb5734acb6bb7a7",
+    "redistributionPermission": "未确认，本新增包不含原图"
+  },
+  {
+    "file": "references/tooling/5-照片-5.jpg",
+    "sha256": "632c5f6090cb3e4c05014154f59ae773dbff1630fc6e251f6eba21c80a3224b2",
+    "redistributionPermission": "未确认，本新增包不含原图"
+  }
+]

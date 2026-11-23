@@ -1,0 +1,731 @@
+{
+  "passed": true,
+  "completedAndReloaded": 7,
+  "results": [
+    {
+      "toolType": "external-grooving",
+      "toolId": "JJ-EXTERNAL-GROOVING",
+      "reference": [
+        -5.960464477539063e-8,
+        -77.9884033203125,
+        5.489899158477783
+      ],
+      "sourceReference": [
+        -5.960464477539063e-8,
+        -77.9884033203125,
+        5.489899158477783
+      ],
+      "bboxMin": [
+        -5.000000353902578,
+        -77.99515128135681,
+        -5.000000353902578
+      ],
+      "bboxMax": [
+        5.000000353902578,
+        2.9513990187980147e-16,
+        9.850000962615017
+      ],
+      "sourceBox": {
+        "min": [
+          -5,
+          -77.99514770507812,
+          -5
+        ],
+        "max": [
+          5,
+          0,
+          9.850000381469727
+        ],
+        "size": [
+          10,
+          77.99514770507812,
+          14.850000381469727
+        ]
+      },
+      "drawMeshes": 6,
+      "triangles": 2182,
+      "bytes": 119628,
+      "installed": {
+        "mount": {
+          "stationId": "gang-od",
+          "name": "外圆排刀座 · 示意OD",
+          "actualMachineVerified": false,
+          "alignmentReference": "cutting-reference",
+          "alignmentTarget": [
+            6,
+            18,
+            0
+          ],
+          "matrixColumnMajor": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            6.000000059604645,
+            95.9884033203125,
+            -5.489899158477783,
+            1
+          ],
+          "physicalMeaning": "外圆刀在安全径向位置，未切削",
+          "referenceEvidence": "第3张图G/H/J类排刀位置"
+        },
+        "check": {
+          "workHits": 0,
+          "guideHits": 0,
+          "pointCount": 5504,
+          "axisParallelError": null,
+          "axisCenterlineError": null,
+          "cuttingReferenceWorld": [
+            6,
+            18,
+            0
+          ],
+          "inspectionState": "停放装配；无加工运动",
+          "limitations": "有限表面点检查，不覆盖连续扫掠/所有实体包含关系/附件干涉"
+        }
+      },
+      "rejectedStationTypes": [
+        "axial-static",
+        "axial-boring",
+        "optional-driven"
+      ],
+      "worldTransformReferenceError": 1.0805156823142815e-14
+    },
+    {
+      "toolType": "parting-off",
+      "toolId": "JJ-PARTING-OFF",
+      "reference": [
+        0,
+        -84.99172973632812,
+        5.49279260635376
+      ],
+      "sourceReference": [
+        0,
+        -84.99172973632812,
+        5.49279260635376
+      ],
+      "bboxMin": [
+        -5.000000353902578,
+        -84.9965438246727,
+        -5.000000353902578
+      ],
+      "bboxMax": [
+        6.16379315033555,
+        2.9513990187980147e-16,
+        5.50000043585897
+      ],
+      "sourceBox": {
+        "min": [
+          -5,
+          -84.99653625488281,
+          -5
+        ],
+        "max": [
+          6.163793087005615,
+          0,
+          5.5
+        ],
+        "size": [
+          11.163793087005615,
+          84.99653625488281,
+          10.5
+        ]
+      },
+      "drawMeshes": 7,
+      "triangles": 2106,
+      "bytes": 107300,
+      "installed": {
+        "mount": {
+          "stationId": "gang-od",
+          "name": "外圆排刀座 · 示意OD",
+          "actualMachineVerified": false,
+          "alignmentReference": "cutting-reference",
+          "alignmentTarget": [
+            6,
+            18,
+            0
+          ],
+          "matrixColumnMajor": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            6,
+            102.99172973632812,
+            -5.49279260635376,
+            1
+          ],
+          "physicalMeaning": "外圆刀在安全径向位置，未切削",
+          "referenceEvidence": "第3张图G/H/J类排刀位置"
+        },
+        "check": {
+          "workHits": 0,
+          "guideHits": 0,
+          "pointCount": 5252,
+          "axisParallelError": null,
+          "axisCenterlineError": null,
+          "cuttingReferenceWorld": [
+            6,
+            18,
+            0
+          ],
+          "inspectionState": "停放装配；无加工运动",
+          "limitations": "有限表面点检查，不覆盖连续扫掠/所有实体包含关系/附件干涉"
+        }
+      },
+      "rejectedStationTypes": [
+        "axial-static",
+        "axial-boring",
+        "optional-driven"
+      ],
+      "worldTransformReferenceError": 1.0805156823142815e-14
+    },
+    {
+      "toolType": "external-threading",
+      "toolId": "JJ-EXTERNAL-THREADING",
+      "reference": [
+        7.347880950074885e-18,
+        -75.8800048828125,
+        5.574999809265137
+      ],
+      "sourceReference": [
+        7.347880950074885e-18,
+        -75.8800048828125,
+        5.574999809265137
+      ],
+      "bboxMin": [
+        -5.000000353902578,
+        -75.8800059556961,
+        -5.000000353902578
+      ],
+      "bboxMax": [
+        5.000000353902578,
+        2.9513990187980147e-16,
+        6.903448607772593
+      ],
+      "sourceBox": {
+        "min": [
+          -5,
+          -75.8800048828125,
+          -5
+        ],
+        "max": [
+          5,
+          0,
+          6.903448104858398
+        ],
+        "size": [
+          10,
+          75.8800048828125,
+          11.903448104858398
+        ]
+      },
+      "drawMeshes": 5,
+      "triangles": 2270,
+      "bytes": 118096,
+      "installed": {
+        "mount": {
+          "stationId": "gang-od",
+          "name": "外圆排刀座 · 示意OD",
+          "actualMachineVerified": false,
+          "alignmentReference": "cutting-reference",
+          "alignmentTarget": [
+            6,
+            18,
+            0
+          ],
+          "matrixColumnMajor": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            6,
+            93.8800048828125,
+            -5.574999809265137,
+            1
+          ],
+          "physicalMeaning": "外圆刀在安全径向位置，未切削",
+          "referenceEvidence": "第3张图G/H/J类排刀位置"
+        },
+        "check": {
+          "workHits": 0,
+          "guideHits": 0,
+          "pointCount": 5560,
+          "axisParallelError": null,
+          "axisCenterlineError": null,
+          "cuttingReferenceWorld": [
+            6,
+            18,
+            0
+          ],
+          "inspectionState": "停放装配；无加工运动",
+          "limitations": "有限表面点检查，不覆盖连续扫掠/所有实体包含关系/附件干涉"
+        }
+      },
+      "rejectedStationTypes": [
+        "axial-static",
+        "axial-boring",
+        "optional-driven"
+      ],
+      "worldTransformReferenceError": 1.0805156823142815e-14
+    },
+    {
+      "toolType": "center-drill",
+      "toolId": "JJ-CENTER-DRILL",
+      "reference": [
+        0,
+        -27.06496238708496,
+        0
+      ],
+      "sourceReference": [
+        0,
+        -27.06496238708496,
+        0
+      ],
+      "bboxMin": [
+        -3.000000026077032,
+        -27.064964175224304,
+        -3.0000004917383185
+      ],
+      "bboxMax": [
+        3.000000026077032,
+        1.7878794676317514e-16,
+        3.0000004917383194
+      ],
+      "sourceBox": {
+        "min": [
+          -3,
+          -27.06496238708496,
+          -3.000000238418579
+        ],
+        "max": [
+          3,
+          0,
+          3.000000238418579
+        ],
+        "size": [
+          6,
+          27.06496238708496,
+          6.000000476837158
+        ]
+      },
+      "drawMeshes": 3,
+      "triangles": 4892,
+      "bytes": 117880,
+      "installed": {
+        "mount": {
+          "stationId": "axial-static",
+          "name": "端面轴向钻孔座 · 示意K",
+          "actualMachineVerified": false,
+          "alignmentReference": "tool-axis-gauge-plane",
+          "alignmentTarget": [
+            36,
+            0,
+            0
+          ],
+          "matrixColumnMajor": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            63.06496238708496,
+            1.6572509778193552e-15,
+            0,
+            1
+          ],
+          "physicalMeaning": "轴向刀具与主轴中心线平行/重合，前端停在端面外12mm",
+          "referenceEvidence": "第3张图K类钻孔位置"
+        },
+        "check": {
+          "workHits": 0,
+          "guideHits": 0,
+          "pointCount": 8195,
+          "axisParallelError": 6.123233995736757e-17,
+          "axisCenterlineError": 1.6572509778193552e-15,
+          "cuttingReferenceWorld": [
+            36,
+            0,
+            0
+          ],
+          "inspectionState": "停放装配；无加工运动",
+          "limitations": "有限表面点检查，不覆盖连续扫掠/所有实体包含关系/附件干涉"
+        }
+      },
+      "rejectedStationTypes": [
+        "gang-od",
+        "axial-boring",
+        "optional-driven"
+      ],
+      "worldTransformReferenceError": 7.944109290391274e-15
+    },
+    {
+      "toolType": "twist-drill",
+      "toolId": "JJ-TWIST-DRILL",
+      "reference": [
+        0,
+        -55.20172119140625,
+        0
+      ],
+      "sourceReference": [
+        0,
+        -55.20172119140625,
+        0
+      ],
+      "bboxMin": [
+        -2.0000000949949026,
+        -55.20172417163849,
+        -2.0000005606561886
+      ],
+      "bboxMax": [
+        2.0000000949949026,
+        1.1755561102580995e-16,
+        2.00000056065619
+      ],
+      "sourceBox": {
+        "min": [
+          -2,
+          -55.20172119140625,
+          -2.000000476837158
+        ],
+        "max": [
+          2,
+          0,
+          2.000000476837158
+        ],
+        "size": [
+          4,
+          55.20172119140625,
+          4.000000953674316
+        ]
+      },
+      "drawMeshes": 3,
+      "triangles": 6428,
+      "bytes": 147056,
+      "installed": {
+        "mount": {
+          "stationId": "axial-static",
+          "name": "端面轴向钻孔座 · 示意K",
+          "actualMachineVerified": false,
+          "alignmentReference": "tool-axis-gauge-plane",
+          "alignmentTarget": [
+            36,
+            0,
+            0
+          ],
+          "matrixColumnMajor": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            91.20172119140625,
+            3.380130558224014e-15,
+            0,
+            1
+          ],
+          "physicalMeaning": "轴向刀具与主轴中心线平行/重合，前端停在端面外12mm",
+          "referenceEvidence": "第3张图K类钻孔位置"
+        },
+        "check": {
+          "workHits": 0,
+          "guideHits": 0,
+          "pointCount": 10563,
+          "axisParallelError": 6.123233995736757e-17,
+          "axisCenterlineError": 3.380130558224014e-15,
+          "cuttingReferenceWorld": [
+            36,
+            0,
+            0
+          ],
+          "inspectionState": "停放装配；无加工运动",
+          "limitations": "有限表面点检查，不覆盖连续扫掠/所有实体包含关系/附件干涉"
+        }
+      },
+      "rejectedStationTypes": [
+        "gang-od",
+        "axial-boring",
+        "optional-driven"
+      ],
+      "worldTransformReferenceError": 0
+    },
+    {
+      "toolType": "internal-boring",
+      "toolId": "JJ-INTERNAL-BORING",
+      "reference": [
+        3.6442019939422607,
+        -67.61109161376953,
+        2.680000066757202
+      ],
+      "sourceReference": [
+        3.6442019939422607,
+        -67.61109161376953,
+        2.680000066757202
+      ],
+      "bboxMin": [
+        -4.000000189989805,
+        -67.62634962797165,
+        -4.000001121312377
+      ],
+      "bboxMax": [
+        4.000000189989805,
+        2.387930601586056e-16,
+        4.00000112131238
+      ],
+      "sourceBox": {
+        "min": [
+          -4,
+          -67.6263427734375,
+          -4.000000953674316
+        ],
+        "max": [
+          4,
+          0,
+          4.000000953674316
+        ],
+        "size": [
+          8,
+          67.6263427734375,
+          8.000001907348633
+        ]
+      },
+      "drawMeshes": 6,
+      "triangles": 2308,
+      "bytes": 114912,
+      "installed": {
+        "mount": {
+          "stationId": "axial-boring",
+          "name": "轴向内孔刀座 · 示意F",
+          "actualMachineVerified": false,
+          "alignmentReference": "tool-axis-gauge-plane",
+          "alignmentTarget": [
+            36,
+            0,
+            0
+          ],
+          "matrixColumnMajor": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            103.6263427734375,
+            4.1409192107765984e-15,
+            0,
+            1
+          ],
+          "physicalMeaning": "轴向刀具与主轴中心线平行/重合，前端停在端面外12mm",
+          "referenceEvidence": "第3张图F类内径加工位置"
+        },
+        "check": {
+          "workHits": 0,
+          "guideHits": 0,
+          "pointCount": 5466,
+          "axisParallelError": 6.123233995736757e-17,
+          "axisCenterlineError": 4.1409192107765984e-15,
+          "cuttingReferenceWorld": [
+            36.01525115966797,
+            -3.6442019939422607,
+            2.680000066757202
+          ],
+          "inspectionState": "停放装配；无加工运动",
+          "limitations": "有限表面点检查，不覆盖连续扫掠/所有实体包含关系/附件干涉"
+        }
+      },
+      "rejectedStationTypes": [
+        "gang-od",
+        "axial-static",
+        "optional-driven"
+      ],
+      "worldTransformReferenceError": 3.552713678800501e-15
+    },
+    {
+      "toolType": "solid-carbide-endmill",
+      "toolId": "JJ-SOLID-CARBIDE-ENDMILL",
+      "reference": [
+        2.9465417861938477,
+        -45,
+        0.5638183355331421
+      ],
+      "sourceReference": [
+        2.9465417861938477,
+        -45,
+        0.5638183355331421
+      ],
+      "bboxMin": [
+        -3.000000026077032,
+        -45.00000178813934,
+        -3.0000007245689617
+      ],
+      "bboxMax": [
+        3.000000026077032,
+        1.7878796101994024e-16,
+        3.000000724568963
+      ],
+      "sourceBox": {
+        "min": [
+          -3,
+          -45,
+          -3.000000476837158
+        ],
+        "max": [
+          3,
+          0,
+          3.000000476837158
+        ],
+        "size": [
+          6,
+          45,
+          6.000000953674316
+        ]
+      },
+      "drawMeshes": 3,
+      "triangles": 6844,
+      "bytes": 159708,
+      "installed": {
+        "mount": {
+          "stationId": "optional-driven",
+          "name": "选配轴向动力刀座 · 条件示意",
+          "actualMachineVerified": false,
+          "alignmentReference": "tool-axis-gauge-plane",
+          "alignmentTarget": [
+            36,
+            0,
+            0
+          ],
+          "matrixColumnMajor": [
+            6.123233995736766e-17,
+            -1,
+            0,
+            0,
+            1,
+            6.123233995736766e-17,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            81,
+            2.7554552980815448e-15,
+            0,
+            1
+          ],
+          "physicalMeaning": "轴向刀具与主轴中心线平行/重合，前端停在端面外12mm",
+          "referenceEvidence": "现有参考图不能确认动力选配，默认禁止装配，需显式开启条件示意"
+        },
+        "check": {
+          "workHits": 0,
+          "guideHits": 0,
+          "pointCount": 11399,
+          "axisParallelError": 6.123233995736757e-17,
+          "axisCenterlineError": 2.7554552980815448e-15,
+          "cuttingReferenceWorld": [
+            36,
+            -2.9465417861938477,
+            0.5638183355331421
+          ],
+          "inspectionState": "停放装配；无加工运动",
+          "limitations": "有限表面点检查，不覆盖连续扫掠/所有实体包含关系/附件干涉"
+        }
+      },
+      "rejectedStationTypes": [
+        "gang-od",
+        "axial-static",
+        "axial-boring"
+      ],
+      "worldTransformReferenceError": 7.944109290391274e-15
+    }
+  ],
+  "positiveCollisionInjection": 10728,
+  "lifecycle": {
+    "shared": false,
+    "dispose": 3,
+    "unique": 3,
+    "bWorks": true
+  },
+  "mobileTouch": true,
+  "mobilePinch": true,
+  "mobileNoOverflow": true,
+  "cloudRotationFps": 60.00393468424168,
+  "mobilePerformance": [
+    {
+      "toolType": "external-grooving",
+      "fps": 60.00393468424168
+    },
+    {
+      "toolType": "parting-off",
+      "fps": 59.994000599940094
+    },
+    {
+      "toolType": "external-threading",
+      "fps": 59.99803285138209
+    },
+    {
+      "toolType": "center-drill",
+      "fps": 59.99803285138209
+    },
+    {
+      "toolType": "twist-drill",
+      "fps": 60.003934684241244
+    },
+    {
+      "toolType": "internal-boring",
+      "fps": 59.99803285138209
+    },
+    {
+      "toolType": "solid-carbide-endmill",
+      "fps": 59.99803285138209
+    }
+  ],
+  "pageErrors": [],
+  "httpErrors": [],
+  "physicalPhoneTested": false,
+  "nativeWechatTested": false,
+  "webViewTested": false
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "3.0",
+  "modelVersion": "1.0.0",
+  "toolId": "JJ-TWIST-DRILL",
+  "toolName": "麻花钻",
+  "toolType": "twist-drill",
+  "supportedOperations": [
+    "axial-drilling"
+  ],
+  "geometryUnits": {
+    "metadata": "mm/Z-up",
+    "glb": "m/Y-up",
+    "loaderOutput": "mm/Z-up"
+  },
+  "mountingOrigin": [
+    0,
+    0,
+    0
+  ],
+  "cuttingReferencePoint": [
+    0.0,
+    -55.20172119140625,
+    0.0
+  ],
+  "cuttingReferenceDefinition": "实际网格上选定的前刃/切削角基准，不等于模型中心；圆柱工具轴线另行记录",
+  "localCoordinateAxes": {
+    "handedness": "right",
+    "X": "横向宽度",
+    "Y": "朝向安装后端，切削端在负Y",
+    "Z": "刀片顶面/径向截面竖向"
+  },
+  "axisDirection": [
+    0,
+    -1,
+    0
+  ],
+  "axisOrigin": [
+    0,
+    0,
+    0
+  ],
+  "axialGaugePoint": [
+    0,
+    -55.20172119140625,
+    0
+  ],
+  "boundingBox": {
+    "min": [
+      -2.0,
+      -55.20172119140625,
+      -2.000000476837158
+    ],
+    "max": [
+      2.0,
+      0.0,
+      2.000000476837158
+    ],
+    "size": [
+      4.0,
+      55.20172119140625,
+      4.000000953674316
+    ]
+  },
+  "overallDimensions": {
+    "widthX": 4.0,
+    "lengthY": 55.20172119140625,
+    "heightZ": 4.000000953674316
+  },
+  "parameters": {
+    "diameter": 4,
+    "pointIncludedAngle": 118,
+    "helixAngle": 30,
+    "flutes": 2,
+    "web": "连续实体芯厚；横刃/后刀面为近似，非精密磨削模型"
+  },
+  "components": {
+    "TwistDrill_Shank": {
+      "role": "toolShank",
+      "boundingBox": {
+        "min": [
+          -2.0,
+          -22.0,
+          -2.000000476837158
+        ],
+        "max": [
+          2.0,
+          0.0,
+          2.000000476837158
+        ],
+        "size": [
+          4.0,
+          22.0,
+          4.000000953674316
+        ]
+      }
+    },
+    "TwistDrill_2_Helical_Flutes": {
+      "role": "cuttingBody",
+      "boundingBox": {
+        "min": [
+          -2.0,
+          -55.20172119140625,
+          -2.0
+        ],
+        "max": [
+          2.0,
+          -22.0,
+          2.0
+        ],
+        "size": [
+          4.0,
+          33.20172119140625,
+          4.0
+        ]
+      }
+    }
+  },
+  "compatibleStationTypes": [
+    "axial-static"
+  ],
+  "stationConfigurationVerified": false,
+  "verificationStatus": {
+    "dimensions": "全部为明确教学默认值，不是厂家尺寸或图片透视测量",
+    "structure": "参考可见结构+通用参数化教学重建，隐藏内部与螺纹非精确产品复刻",
+    "manufacturer": null,
+    "nativeWechat": "未原生微信真机测试"
+  },
+  "referenceEvidence": "第3张图K类轴向钻孔和实拍钻头；尺寸/螺旋参数为通用教学值",
+  "sourceFile": "sources/generate_tools.py",
+  "modelPath": "models/twist-drill.glb",
+  "selfInspection": {
+    "meshes": {
+      "TwistDrill_Shank": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 275.6247343495583,
+        "finiteNormals": true,
+        "vertices": 288
+      },
+      "TwistDrill_2_Helical_Flutes": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 206.16768189966018,
+        "finiteNormals": true,
+        "vertices": 2930
+      }
+    },
+    "holderInsertSurfaceChecks": [],
+    "contactPolicy": "座面、螺丝座及部件端面有意接触不视为错误穿透；非完整CAD实体认证"
+  },
+  "triangleCount": 6428,
+  "meshCount": 2,
+  "drawPrimitiveCount": 3,
+  "materialCount": 2,
+  "textureCount": 0,
+  "mountingInterface": {
+    "type": "round-shank",
+    "squareWidth": null,
+    "shankDiameter": 4,
+    "gripRegionLocalY": [
+      -12,
+      0
+    ]
+  },
+  "bytes": 147056,
+  "sha256": "9f7e22c1978f1428b0556f2cce0e878c4c5dd582ff06db26f467330a6f14bade"
+}

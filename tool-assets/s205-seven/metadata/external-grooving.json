@@ -1,0 +1,274 @@
+{
+  "schemaVersion": "3.0",
+  "modelVersion": "1.0.0",
+  "toolId": "JJ-EXTERNAL-GROOVING",
+  "toolName": "外圆切槽刀",
+  "toolType": "external-grooving",
+  "supportedOperations": [
+    "external-grooving"
+  ],
+  "geometryUnits": {
+    "metadata": "mm/Z-up",
+    "glb": "m/Y-up",
+    "loaderOutput": "mm/Z-up"
+  },
+  "mountingOrigin": [
+    0,
+    0,
+    0
+  ],
+  "cuttingReferencePoint": [
+    -5.960464477539063e-08,
+    -77.9884033203125,
+    5.489899158477783
+  ],
+  "cuttingReferenceDefinition": "实际网格上选定的前刃/切削角基准，不等于模型中心；圆柱工具轴线另行记录",
+  "localCoordinateAxes": {
+    "handedness": "right",
+    "X": "横向宽度",
+    "Y": "朝向安装后端，切削端在负Y",
+    "Z": "刀片顶面/径向截面竖向"
+  },
+  "axisDirection": [
+    0,
+    -1,
+    0
+  ],
+  "axisOrigin": [
+    0,
+    0,
+    0
+  ],
+  "axialGaugePoint": [
+    0,
+    -77.99514770507812,
+    0
+  ],
+  "boundingBox": {
+    "min": [
+      -5.0,
+      -77.99514770507812,
+      -5.0
+    ],
+    "max": [
+      5.0,
+      0.0,
+      9.850000381469727
+    ],
+    "size": [
+      10.0,
+      77.99514770507812,
+      14.850000381469727
+    ]
+  },
+  "overallDimensions": {
+    "widthX": 10.0,
+    "lengthY": 77.99514770507812,
+    "heightZ": 14.850000381469727
+  },
+  "parameters": {
+    "cuttingWidth": 2,
+    "insertThickness": 2.5,
+    "maximumIllustrativeOverhang": 4,
+    "cuttingEdge": "2mm前刃，圆角和后角为教学形体"
+  },
+  "components": {
+    "Groove_Holder": {
+      "role": "holder",
+      "boundingBox": {
+        "min": [
+          -5.0,
+          -74.0,
+          -5.0
+        ],
+        "max": [
+          5.0,
+          0.0,
+          5.0
+        ],
+        "size": [
+          10.0,
+          74.0,
+          10.0
+        ]
+      }
+    },
+    "Groove_Seat": {
+      "role": "seat",
+      "boundingBox": {
+        "min": [
+          -1.0,
+          -74.0,
+          2.5
+        ],
+        "max": [
+          1.0,
+          -70.0,
+          3.0
+        ],
+        "size": [
+          2.0,
+          4.0,
+          0.5
+        ]
+      }
+    },
+    "Groove_Carbide_Insert": {
+      "role": "insert",
+      "boundingBox": {
+        "min": [
+          -0.9974865317344666,
+          -77.99514770507812,
+          3.0
+        ],
+        "max": [
+          0.9974865317344666,
+          -70.0,
+          5.5
+        ],
+        "size": [
+          1.994973063468933,
+          7.995147705078125,
+          2.5
+        ]
+      }
+    },
+    "Groove_Top_Clamp": {
+      "role": "clamp",
+      "boundingBox": {
+        "min": [
+          -2.0,
+          -71.0,
+          5.0
+        ],
+        "max": [
+          2.0,
+          -61.0,
+          8.5
+        ],
+        "size": [
+          4.0,
+          10.0,
+          3.5
+        ]
+      }
+    },
+    "Groove_Clamp_Screw_Shaft": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          -0.949999988079071,
+          -64.94999694824219,
+          1.6999998092651367
+        ],
+        "max": [
+          0.949999988079071,
+          -63.04999923706055,
+          8.5
+        ],
+        "size": [
+          1.899999976158142,
+          1.8999977111816406,
+          6.800000190734863
+        ]
+      }
+    },
+    "Groove_Clamp_Screw_Head": {
+      "role": "fastener",
+      "boundingBox": {
+        "min": [
+          -1.4500000476837158,
+          -65.44999694824219,
+          8.5
+        ],
+        "max": [
+          1.4500000476837158,
+          -62.54999923706055,
+          9.850000381469727
+        ],
+        "size": [
+          2.9000000953674316,
+          2.8999977111816406,
+          1.3500003814697266
+        ]
+      }
+    }
+  },
+  "compatibleStationTypes": [
+    "gang-od"
+  ],
+  "stationConfigurationVerified": false,
+  "verificationStatus": {
+    "dimensions": "全部为明确教学默认值，不是厂家尺寸或图片透视测量",
+    "structure": "参考可见结构+通用参数化教学重建，隐藏内部与螺纹非精确产品复刻",
+    "manufacturer": null,
+    "nativeWechat": "未原生微信真机测试"
+  },
+  "referenceEvidence": "第5张图第二排第三格外圆切槽刀及第3张图G/H类工位；不是产品尺寸复刻",
+  "sourceFile": "sources/generate_tools.py",
+  "modelPath": "models/external-grooving.glb",
+  "selfInspection": {
+    "meshes": {
+      "Groove_Holder": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 6938.972097849248,
+        "finiteNormals": true,
+        "vertices": 223
+      },
+      "Groove_Seat": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 3.9921100607227107,
+        "finiteNormals": true,
+        "vertices": 96
+      },
+      "Groove_Carbide_Insert": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 34.77436610319486,
+        "finiteNormals": true,
+        "vertices": 86
+      },
+      "Groove_Top_Clamp": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 113.1646069403398,
+        "finiteNormals": true,
+        "vertices": 390
+      },
+      "Groove_Clamp_Screw_Shaft": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 19.1563164810438,
+        "finiteNormals": true,
+        "vertices": 64
+      },
+      "Groove_Clamp_Screw_Head": {
+        "nonManifoldEdges": 0,
+        "signedVolumeMm3": 7.306722255818968,
+        "finiteNormals": true,
+        "vertices": 242
+      }
+    },
+    "holderInsertSurfaceChecks": [
+      {
+        "a": "Groove_Carbide_Insert",
+        "b": "Groove_Holder",
+        "surfaceOverlaps": 0
+      }
+    ],
+    "contactPolicy": "座面、螺丝座及部件端面有意接触不视为错误穿透；非完整CAD实体认证"
+  },
+  "triangleCount": 2182,
+  "meshCount": 6,
+  "drawPrimitiveCount": 6,
+  "materialCount": 3,
+  "textureCount": 0,
+  "mountingInterface": {
+    "type": "square-shank",
+    "squareWidth": 10,
+    "shankDiameter": null,
+    "gripRegionLocalY": [
+      -12,
+      0
+    ]
+  },
+  "bytes": 119628,
+  "sha256": "fc50a637c73fbcf1feda339aeaf6e4f5318ea2190b9cdda73b40743bb8ad2554"
+}
